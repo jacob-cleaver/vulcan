@@ -1,0 +1,30 @@
+@import '../variables';
+
+$color: #c03;
+$hover: #c03;
+
+// EDITORS
+$text-decoration: none;
+$title--alt-font: 'Open Sans', Helvetica, Arial, sans-serif;
+$editor__name: 'bebas_neueregular_blog', sans-serif;
+
+// POST-CARD
+$post-card__title: 'bebas_neueregular_blog', sans-serif;
+$post-card__category: 'bebas_neueregular_blog', sans-serif;
+$post-card__editor: 'Open Sans', Helvetica, Arial, sans-serif;
+$post-card__snippet: 'Open Sans', Helvetica, Arial, sans-serif;
+$post-card__date: 'Open Sans', Helvetica, Arial, sans-serif;
+$text-transform: none;
+
+// FONTS
+@font-face {
+  font-family: 'bebas_neueregular_blog';
+  src: url('http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.eot');
+  src: url('http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+    url('http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.woff2') format('woff2'),
+    url('http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.woff') format('woff'),
+    url('http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.ttf') format('truetype'),
+    url('http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.svg#bebas_neueregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}

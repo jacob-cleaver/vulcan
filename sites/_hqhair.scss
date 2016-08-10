@@ -1,0 +1,33 @@
+@import '../variables';
+
+$color: $black;
+$hover: $black;
+
+// EDITORS
+$text-decoration: none;
+$section-title--alt-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$editor__name: 'FuturaCon-Bol';
+
+// POST-CARD
+$post-card__title: 'FuturaCon-Bol';
+// $post-card__category:
+// $post-card__editor:
+$post-card__snippet: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+// $post-card__date:
+$text-transform: none;
+
+// FONTS
+@font-face {
+  font-family: 'FuturaCon-Bol';
+  src: url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-bold.eot');
+  src: url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-bold.eot#iefix') format('embedded-opentype'), url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-bold.woff2') format('woff2'), url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-bold.woff') format('woff'), url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-bold.ttf') format('truetype'), url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-bold.svg#youworkforthem') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FuturaCon-Med';
+  src: url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-medium.eot');
+  src: url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-medium.eot#iefix') format('embedded-opentype'), url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-medium.woff2') format('woff2'), url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-medium.woff') format('woff'), url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-medium.ttf') format('truetype'), url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-medium.svg#youworkforthem') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}

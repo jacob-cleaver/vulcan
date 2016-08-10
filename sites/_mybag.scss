@@ -1,0 +1,32 @@
+@import '../variables';
+
+$color: $white;
+$hover: $black;
+
+// EDITORS
+$text-decoration: underline;
+$section-title--alt-font: 'Open Sans', Helvetica, Arial, sans-serif;
+$editor__name: 'FuturaStd-Book', Helvetica Neue, Helvetica, Arial, sans-serif;
+
+// POST-CARD
+$post-card__title: 'FuturaStd-Book', Helvetica Neue, Helvetica, Arial, sans-serif;
+$post-card__category: FuturaStd-Book,Helvetica Neue,Helvetica,Arial,sans-serif;
+$post-card__editor: FuturaStd-Book,Helvetica Neue,Helvetica,Arial,sans-serif;
+$post-card__snippet: 'Open Sans', Helvetica, Arial, sans-serif;
+$post-card__date: 'Open Sans', Helvetica, Arial, sans-serif;
+$text-transformation: uppercase;
+
+// FONTS
+@font-face {
+  font-family: 'FuturaStd-Book';
+  src: url('http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.eot');
+  src: url('http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.eot#iefix') format('embedded-opentype'),
+    url('http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.woff') format('woff'),
+    url('http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.ttf') format('truetype'),
+    url('http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.otf') format('opentype'),
+    url('http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.svg#FuturaStd-Book') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-25CA;
+}

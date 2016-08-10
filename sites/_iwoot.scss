@@ -1,0 +1,62 @@
+@import '../variables';
+
+$color: $black;
+$hover: $black;
+
+// EDITORS
+$text-decoration: underline;
+$section-title--alt-font: 'Open Sans', Helvetica, Arial, sans-serif;
+$editor__name: 'antonioregular', Arial, Verdana, Helvetica;
+
+// POST-CARD
+$post-card__title: 'antonioregular', Arial, Verdana, Helvetica;
+// $post-card__category:
+// $post-card__editor:
+$post-card__snippet: 'Open Sans', Helvetica, Arial, sans-serif;
+// $post-card__date:
+$text-transform: none;
+
+// FONTS
+@font-face {
+  font-family: 'bebasneue';
+  src: url('http://s2.thcdn.com/fe/fonts/iwoot/BebasNeue-webfont.eot');
+  src: url('http://s2.thcdn.com/fe/fonts/iwoot/BebasNeue-webfont.eot#iefix') format('embedded-opentype'),
+    url('http://s2.thcdn.com/fe/fonts/iwoot/BebasNeue-webfont.woff') format('woff'),
+    url('http://s2.thcdn.com/fe/fonts/iwoot/BebasNeue-webfont.ttf') format('truetype'),
+    url('http://s2.thcdn.com/fe/fonts/iwoot/BebasNeue-webfont.svg#bebasneue') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'antoniobold';
+  src: url('http://s2.thcdn.com/fe/fonts/iwoot/antonio-bold-webfont.eot');
+  src: url('http://s2.thcdn.com/fe/fonts/iwoot/antonio-bold-webfont.eot#iefix') format('embedded-opentype'),
+    url('http://s2.thcdn.com/fe/fonts/iwoot/antonio-bold-webfont.woff') format('woff'),
+    url('http://s2.thcdn.com/fe/fonts/iwoot/antonio-bold-webfont.ttf') format('truetype'),
+    url('http://s2.thcdn.com/fe/fonts/iwoot/antonio-bold-webfont.svg#antoniobold') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'antoniolight';
+  src: url('http://s2.thcdn.com/fe/fonts/iwoot/antonio-light-webfont.eot');
+  src: url('http://s2.thcdn.com/fe/fonts/iwoot/antonio-light-webfont.eot#iefix') format('embedded-opentype'),
+    url('http://s2.thcdn.com/fe/fonts/iwoot/antonio-light-webfont.woff') format('woff'),
+    url('http://s2.thcdn.com/fe/fonts/iwoot/antonio-light-webfont.ttf') format('truetype'),
+    url('http://s2.thcdn.com/fe/fonts/iwoot/antonio-light-webfont.svg#antoniolight') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'antonioregular';
+  src: url('http://s2.thcdn.com/fe/fonts/iwoot/antonio-regular-webfont.eot');
+  src: url('http://s2.thcdn.com/fe/fonts/iwoot/antonio-regular-webfont.eot#iefix') format('embedded-opentype'),
+    url('http://s2.thcdn.com/fe/fonts/iwoot/antonio-regular-webfont.woff') format('woff'),
+    url('http://s2.thcdn.com/fe/fonts/iwoot/antonio-regular-webfont.ttf') format('truetype'),
+    url('http://s2.thcdn.com/fe/fonts/iwoot/antonio-regular-webfont.svg#antonioregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}

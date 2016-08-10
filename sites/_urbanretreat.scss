@@ -1,0 +1,28 @@
+@import '../variables';
+
+$color: #320b70;
+$hover: #320b70;
+
+// EDITORS
+$text-decoration: none;
+$section-title--alt-font: 'Gotham Book', Helvetica Neue, Helvetica, Arial, sans-serif;
+$editor__name: 'Gotham Book', Helvetica Neue, Helvetica, Arial, sans-serif;
+
+// POST-CARD
+$post-card__title: 'Gotham Book', Helvetica Neue, Helvetica, Arial, sans-serif;
+// $post-card__category:
+// $post-card__editor:
+$post-card__snippet: 'Gotham Book', Helvetica Neue, Helvetica, Arial, sans-serif;
+// $post-card__date:
+$text-transform: none;
+
+// FONTS
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('../fonts/GothamBook.eot') format('embedded-opentype');
+  src: url('../fonts/GothamBook.woff') format('woff'),
+    url('../fonts/GothamBook.ttf')  format('truetype'),
+    url('../fonts/GothamBook.svg#GothamBook') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,0 +1,40 @@
+@import '../variables';
+
+$color: #0070ba;
+$hover: #0070ba;
+
+// EDITORS
+$text-decoration: none;
+$section-title--alt-font: 'TeXGyreAdventorRegular', Helvetica Neue, Helvetica, Arial, sans-serif;
+$editor__name: 'TeXGyreAdventorBold', Helvetica Neue, Helvetica, Arial, sans-serif;
+
+// POST-CARD
+$post-card__title: 'TeXGyreAdventorRegular', Helvetica Neue, Helvetica, Arial, sans-serif;
+$post-card__category: 'TeXGyreAdventorRegular', Helvetica Neue, Helvetica, Arial, sans-serif;
+$post-card__editor: 'TeXGyreAdventorRegular', Helvetica Neue, Helvetica, Arial, sans-serif;
+$post-card__snippet: 'TeXGyreAdventorBold', Helvetica Neue, Helvetica, Arial, sans-serif;
+$post-card__date: 'TeXGyreAdventorRegular', Helvetica Neue, Helvetica, Arial, sans-serif;
+$text-transform: none;
+
+// FONTS
+@font-face {
+  font-family: 'TeXGyreAdventorRegular';
+  src:url('http://s2.thcdn.com/fe/fonts/myvitamins/texgyreadventor-regular-webfont.eot');
+  src:url('http://s2.thcdn.com/fe/fonts/myvitamins/texgyreadventor-regular-webfont.eot#iefix') format("embedded-opentype"),
+    url('http://s2.thcdn.com/fe/fonts/myvitamins/texgyreadventor-regular-webfont.woff') format("woff"),
+    url('http://s2.thcdn.com/fe/fonts/myvitamins/texgyreadventor-regular-webfont.ttf') format("truetype"),
+    url('http://s2.thcdn.com/fe/fonts/myvitamins/texgyreadventor-regular-webfont.svg#texgyreadventorregular') format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TeXGyreAdventorBold';
+  src:url('http://s2.thcdn.com/fe/fonts/myvitamins/texgyreadventor-bold-webfont.eot');
+  src:url('http://s2.thcdn.com/fe/fonts/myvitamins/texgyreadventor-bold-webfont.eot#iefix') format("embedded-opentype"),
+    url('http://s2.thcdn.com/fe/fonts/myvitamins/texgyreadventor-bold-webfont.woff') format("woff"),
+    url('http://s2.thcdn.com/fe/fonts/myvitamins/texgyreadventor-bold-webfont.ttf') format("truetype"),
+    url('http://s2.thcdn.com/fe/fonts/myvitamins/texgyreadventor-bold-webfont.svg#texgyreadventorbold') format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
