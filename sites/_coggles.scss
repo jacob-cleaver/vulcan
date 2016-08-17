@@ -1,17 +1,41 @@
 @import '../variables';
 
 $color: $white;
-$hover: $white;
+$hover: #333;
+$text-transform: none;
 
 // EDITORS
 $text-decoration: none;
 $section-title--alt-font: 'Open Sans', Helvetica, Arial, sans-serif;
-$editor__name: 'Oswald', Helvetica, Arial, sans-serif;
+$editor__name: 'PT-Sans-Narrow-Bold';
+$editor__tag: 'Open Sans', Helvetica, Arial, sans-serif;
 
 // POST-CARD
-$post-card__title: 'Oswald', Helvetica, Arial, sans-serif;
-// $post-card__category:
-// $post-card__editor:
-$post-card__snippet: 'Oswald', Helvetica, Arial, sans-serif;
-// $post-card__date:
-$text-transform: none;
+$post-card__title: 'PT-Sans-Narrow-Bold';
+$post-card__category: 'PT-Sans-Narrow';
+$post-card__editor: 'PT-Sans-Narrow-Bold';
+$post-card__snippet: 'PT-Sans-Narrow';
+$post-card__date: 'PT-Sans-Narrow';
+
+// FONTS
+@font-face {
+  font-family: 'PT-Sans-Narrow';
+  src: url('http://s2.thcdn.com/fe/fonts/coggles/PTN57F-webfont.eot');
+  src: url('http://s2.thcdn.com/fe/fonts/coggles/PTN57F-webfont.eot#iefix') format("embedded-opentype"),
+    url('http://s2.thcdn.com/fe/fonts/coggles/PTN57F-webfont.woff') format("woff"),
+    url('http://s2.thcdn.com/fe/fonts/coggles/PTN57F-webfont.ttf') format("truetype"),
+    url('http://s2.thcdn.com/fe/fonts/coggles/PTN57F-webfont.svg#pt_sans_narrow_bold') format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT-Sans-Narrow-Bold';
+  src:url('http://s2.thcdn.com/fe/fonts/coggles/PTN77F-webfont.eot');
+  src:url('http://s2.thcdn.com/fe/fonts/coggles/PTN77F-webfont.eot#iefix') format("embedded-opentype"),
+  url('http://s2.thcdn.com/fe/fonts/coggles/PTN77F-webfont.woff') format("woff"),
+  url('http://s2.thcdn.com/fe/fonts/coggles/PTN77F-webfont.ttf') format("truetype"),
+  url('http://s2.thcdn.com/fe/fonts/coggles/PTN77F-webfont.svg#pt_sans_narrow_bold') format("svg");
+  font-weight: 400;
+  font-style: normal;
+}

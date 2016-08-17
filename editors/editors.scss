@@ -1,4 +1,4 @@
-@import '../sites/zavvi';
+@import '../sites/coggles';
 
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -23,6 +23,7 @@ h4 {
   line-height: 1.1;
   margin-bottom: .5rem;
   margin-top: 0;
+  text-transform: $text-transform;
 }
 
 p {
@@ -32,44 +33,11 @@ p {
 
 a {
   text-decoration: none;
-  touch-action: manipulation;
 }
 
 img {
   border-style: none;
   vertical-align: middle;
-}
-
-area {
-  touch-action: manipulation;
-}
-
-button {
-  touch-action: manipulation;
-}
-
-[role='button'] {
-  touch-action: manipulation;
-}
-
-input {
-  touch-action: manipulation;
-}
-
-label {
-  touch-action: manipulation;
-}
-
-select {
-  touch-action: manipulation;
-}
-
-summary {
-  touch-action: manipulation;
-}
-
-textarea {
-  touch-action: manipulation;
 }
 
 .img-circle {
@@ -142,6 +110,7 @@ textarea {
 .editor__tag {
   font-size: 12px;
   font-size: .75rem;
+  font-family: $editor__tag;
 }
 
 .bx-wrapper {

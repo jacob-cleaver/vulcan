@@ -2,11 +2,13 @@
 
 $color: $white;
 $hover: $black;
+$text-transform: uppercase;
 
 // EDITORS
 $text-decoration: underline;
 $section-title--alt-font: 'Open Sans', Helvetica, Arial, sans-serif;
 $editor__name: 'FuturaStd-Book', Helvetica Neue, Helvetica, Arial, sans-serif;
+$editor__tag: 'FuturaStd-Book', Helvetica Neue, Helvetica, Arial, sans-serif;
 
 // POST-CARD
 $post-card__title: 'FuturaStd-Book', Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -14,7 +16,6 @@ $post-card__category: FuturaStd-Book,Helvetica Neue,Helvetica,Arial,sans-serif;
 $post-card__editor: FuturaStd-Book,Helvetica Neue,Helvetica,Arial,sans-serif;
 $post-card__snippet: 'Open Sans', Helvetica, Arial, sans-serif;
 $post-card__date: 'Open Sans', Helvetica, Arial, sans-serif;
-$text-transformation: uppercase;
 
 // FONTS
 @font-face {

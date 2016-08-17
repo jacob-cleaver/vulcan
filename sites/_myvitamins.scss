@@ -2,19 +2,21 @@
 
 $color: #0070ba;
 $hover: #0070ba;
+$text-transform: none;
 
 // EDITORS
 $text-decoration: none;
 $section-title--alt-font: 'TeXGyreAdventorRegular', Helvetica Neue, Helvetica, Arial, sans-serif;
 $editor__name: 'TeXGyreAdventorBold', Helvetica Neue, Helvetica, Arial, sans-serif;
+$editor__tag: 'TeXGyreAdventorRegular', Helvetica Neue, Helvetica, Arial, sans-serif;
 
 // POST-CARD
-$post-card__title: 'TeXGyreAdventorRegular', Helvetica Neue, Helvetica, Arial, sans-serif;
+$post-card__title: 'TeXGyreAdventorBold', Helvetica Neue, Helvetica, Arial, sans-serif;
 $post-card__category: 'TeXGyreAdventorRegular', Helvetica Neue, Helvetica, Arial, sans-serif;
 $post-card__editor: 'TeXGyreAdventorRegular', Helvetica Neue, Helvetica, Arial, sans-serif;
-$post-card__snippet: 'TeXGyreAdventorBold', Helvetica Neue, Helvetica, Arial, sans-serif;
+$post-card__snippet: 'TeXGyreAdventorRegular', Helvetica Neue, Helvetica, Arial, sans-serif;
 $post-card__date: 'TeXGyreAdventorRegular', Helvetica Neue, Helvetica, Arial, sans-serif;
-$text-transform: none;
+
 
 // FONTS
 @font-face {

@@ -2,27 +2,28 @@
 
 $color: #320b70;
 $hover: #320b70;
+$text-transform: none;
 
 // EDITORS
 $text-decoration: none;
 $section-title--alt-font: 'Gotham Book', Helvetica Neue, Helvetica, Arial, sans-serif;
 $editor__name: 'Gotham Book', Helvetica Neue, Helvetica, Arial, sans-serif;
+$editor__tag: 'Gotham Book', Helvetica Neue, Helvetica, Arial, sans-serif;
 
 // POST-CARD
 $post-card__title: 'Gotham Book', Helvetica Neue, Helvetica, Arial, sans-serif;
-// $post-card__category:
-// $post-card__editor:
-$post-card__snippet: 'Gotham Book', Helvetica Neue, Helvetica, Arial, sans-serif;
-// $post-card__date:
-$text-transform: none;
+$post-card__category: 'Gotham Book', Helvetica Neue, Helvetica, Arial, sans-serif;
+$post-card__editor: 'Gotham Book', Helvetica Neue, Helvetica, Arial, sans-serif;
+$post-card__snippet: 'Open Sans', Helvetica, Arial, sans-serif;
+$post-card__date: 'Gotham Book', Helvetica Neue, Helvetica, Arial, sans-serif;
 
 // FONTS
 @font-face {
   font-family: 'Gotham Book';
-  src: url('../fonts/GothamBook.eot') format('embedded-opentype');
-  src: url('../fonts/GothamBook.woff') format('woff'),
-    url('../fonts/GothamBook.ttf')  format('truetype'),
-    url('../fonts/GothamBook.svg#GothamBook') format('svg');
+  src: url('../fonts/GothamBook/GothamBook.eot') format('embedded-opentype');
+  src: url('../fonts/GothamBook/GothamBook.woff') format('woff'),
+    url('../fonts/GothamBook/GothamBook.ttf')  format('truetype'),
+    url('../fonts/GothamBook/GothamBook.svg#GothamBook') format('svg');
   font-weight: 400;
   font-style: normal;
 }

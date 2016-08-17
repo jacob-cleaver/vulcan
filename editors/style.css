@@ -181,23 +181,16 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 @font-face {
-  font-family: 'tstar-medium';
-  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstar-medium.eot");
-  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstar-medium.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.svg#tstar-heavy") format("svg"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-medium.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.ttf") format("truetype");
+  font-family: 'PT-Sans-Narrow';
+  src: url("http://s2.thcdn.com/fe/fonts/coggles/PTN57F-webfont.eot");
+  src: url("http://s2.thcdn.com/fe/fonts/coggles/PTN57F-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/coggles/PTN57F-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/coggles/PTN57F-webfont.ttf") format("truetype"), url("http://s2.thcdn.com/fe/fonts/coggles/PTN57F-webfont.svg#pt_sans_narrow_bold") format("svg");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
-  font-family: 'tstar-heavy';
-  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.eot");
-  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.svg#tstar-heavy") format("svg"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'tstar-mono-round';
-  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstarmonoroundbol-webfont.eot");
-  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstarmonoroundbol-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/zvint/tstarmonoroundbol-webfont.svg#tstar-mono-round") format("svg"), url("http://s2.thcdn.com/fe/fonts/zvint/tstarmonoroundbol-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/zvint/tstarmonoroundbol-webfont.ttf") format("truetype");
+  font-family: 'PT-Sans-Narrow-Bold';
+  src: url("http://s2.thcdn.com/fe/fonts/coggles/PTN77F-webfont.eot");
+  src: url("http://s2.thcdn.com/fe/fonts/coggles/PTN77F-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/coggles/PTN77F-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/coggles/PTN77F-webfont.ttf") format("truetype"), url("http://s2.thcdn.com/fe/fonts/coggles/PTN77F-webfont.svg#pt_sans_narrow_bold") format("svg");
   font-weight: 400;
   font-style: normal; }
 
@@ -216,48 +209,24 @@ h3 {
 
 h4 {
   color: inherit;
-  font-family: "tstar-heavy", sans-serif;
+  font-family: "PT-Sans-Narrow-Bold";
   font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.1;
   margin-bottom: .5rem;
-  margin-top: 0; }
+  margin-top: 0;
+  text-transform: none; }
 
 p {
   margin-bottom: 1rem;
   margin-top: 0; }
 
 a {
-  text-decoration: none;
-  touch-action: manipulation; }
+  text-decoration: none; }
 
 img {
   border-style: none;
   vertical-align: middle; }
-
-area {
-  touch-action: manipulation; }
-
-button {
-  touch-action: manipulation; }
-
-[role='button'] {
-  touch-action: manipulation; }
-
-input {
-  touch-action: manipulation; }
-
-label {
-  touch-action: manipulation; }
-
-select {
-  touch-action: manipulation; }
-
-summary {
-  touch-action: manipulation; }
-
-textarea {
-  touch-action: manipulation; }
 
 .img-circle {
   border-radius: 50%; }
@@ -292,25 +261,26 @@ textarea {
 .editor__link {
   color: #000; }
   .editor__link:focus {
-    color: #69bc28;
+    color: #fff;
     text-decoration: none; }
   .editor__link:hover {
-    color: #69bc28;
+    color: #333;
     text-decoration: none; }
 
 .editor__name {
   color: #000;
   text-decoration: none; }
   .editor__name:focus {
-    color: #69bc28;
+    color: #fff;
     text-decoration: none; }
   .editor__name:hover {
-    color: #69bc28;
+    color: #333;
     text-decoration: none; }
 
 .editor__tag {
   font-size: 12px;
-  font-size: .75rem; }
+  font-size: .75rem;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif; }
 
 .bx-wrapper {
   border: 0;
@@ -326,7 +296,7 @@ textarea {
 .section-title--alt {
   color: #000;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-size: .75rem;
   font-weight: bold;
@@ -335,7 +305,7 @@ textarea {
   text-align: center;
   text-transform: uppercase; }
   .section-title--alt::after {
-    background-color: #69bc28;
+    background-color: #fff;
     content: '';
     display: block;
     height: 2px;

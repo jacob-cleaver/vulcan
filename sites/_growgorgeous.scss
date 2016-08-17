@@ -2,16 +2,31 @@
 
 $color: #776d6f;
 $hover: #776d6f;
+$text-transform: none;
 
 // EDITORS
 $text-decoration: none;
-$section-title--alt-font: 'Open Sans', Helvetica, Arial, sans-serif;
-$editor__name: 'Open Sans', Helvetica, Arial, sans-serif;
+$section-title--alt-font: 'Bariol Regular', Arial, sans-serif;
+$editor__name: 'Bariol Regular', Arial, sans-serif;
+$editor__tag: 'Bariol Regular', Arial, sans-serif;
+
 
 // POST_CARD
-$post-card__title: 'Open Sans', Helvetica, Arial, sans-serif;
-// $post-card__category:
-// $post-card__editor:
+$post-card__title: 'Bariol Regular', Arial, sans-serif;
+$post-card__category: 'Bariol Regular', Arial, sans-serif;
+$post-card__editor: 'Bariol Regular', Arial, sans-serif;
 $post-card__snippet: 'Open Sans', Helvetica, Arial, sans-serif;
-// $post-card__date:
-$text-transform: none;
+$post-card__date: 'Bariol Regular', Arial, sans-serif;
+
+// FONTS
+@font-face {
+  font-family: 'Bariol Regular';
+  src: url('http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.eot');
+  src:url('http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.eot#iefix') format("embedded-opentype"),
+    url('http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.woff2') format("woff2"),
+    url('http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.woff') format("woff"),
+    url('http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.ttf') format("truetype"),
+    url('http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.svg#bariol_regular-webfont') format("svg");
+  font-weight: 400;
+  font-style: normal;
+}

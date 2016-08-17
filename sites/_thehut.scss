@@ -2,16 +2,17 @@
 
 $color: $black;
 $hover: $black;
+$text-transform: none;
 
 // EDITORS
 $text-decoration: none;
 $section-title--alt-font: 'Open Sans', Helvetica, Arial, sans-serif;
 $editor__name: 'Oswald Bold', Helvetica, Arial, sans-serif;
+$editor__tag: 'Open Sans', Helvetica, Arial, sans-serif;
 
 // POST-CARD
 $post-card__title: 'Oswald Bold', Helvetica, Arial, sans-serif;
-// $post-card__category:
-// $post-card__editor:
-$post-card__snippet: 'Oswald Bold', Helvetica, Arial, sans-serif;
-// $post-card__date:
-$text-transform: none;
+$post-card__category: 'Oswald', Helvetica, Arial, sans-serif;
+$post-card__editor: 'Oswald', Helvetica, Arial, sans-serif;
+$post-card__snippet: 'Open Sans', Helvetica, Arial, sans-serif;
+$post-card__date: 'Open Sans', Helvetica, Arial, sans-serif;

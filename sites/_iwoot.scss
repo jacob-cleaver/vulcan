@@ -2,19 +2,21 @@
 
 $color: $black;
 $hover: $black;
+$text-transform: none;
 
 // EDITORS
 $text-decoration: underline;
 $section-title--alt-font: 'Open Sans', Helvetica, Arial, sans-serif;
 $editor__name: 'antonioregular', Arial, Verdana, Helvetica;
+$editor__tag: 'Open Sans', Helvetica, Arial, sans-serif;
 
 // POST-CARD
 $post-card__title: 'antonioregular', Arial, Verdana, Helvetica;
-// $post-card__category:
-// $post-card__editor:
+$post-card__category: 'Open Sans', Helvetica, Arial, sans-serif;
+$post-card__editor: 'Open Sans', Helvetica, Arial, sans-serif;
 $post-card__snippet: 'Open Sans', Helvetica, Arial, sans-serif;
-// $post-card__date:
-$text-transform: none;
+$post-card__date: 'Open Sans', Helvetica, Arial, sans-serif;
+
 
 // FONTS
 @font-face {

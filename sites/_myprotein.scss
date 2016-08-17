@@ -2,11 +2,13 @@
 
 $color: #0060c1;
 $hover: #0060c1;
+$text-transform: none;
 
 // EDITORS
 $text-decoration: none;
 $section-title--alt-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $editor__name: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$editor__tag: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 // POST-CARD
 $post-card__title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -14,26 +16,3 @@ $post-card__category: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $post-card__editor: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $post-card__snippet: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $post-card__date: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$text-transform: none;
-
-// FONTS
-@font-face {
-  font-family: 'league_gothicregular';
-  src: url('http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-regular-webfont.eot');
-  src: url('http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-regular-webfont.eot#iefix') format('embedded-opentype'),
-    url('http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-regular-webfont.woff') format('woff'),
-    url('http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-regular-webfont.ttf') format('truetype'),
-    url('http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
-  font-style: normal;
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'league_gothicCnRg';
-  src: url('http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-condensedregular-webfont.eot');
-  src: url('http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-condensedregular-webfont.eot#iefix') format('embedded-opentype'),
-    url('http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-condensedregular-webfont.woff') format('woff'),
-    url('http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-condensedregular-webfont.ttf') format('truetype'),
-    url('http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg') format('svg');
-  font-weight: 400;
-  font-style: normal;
-}

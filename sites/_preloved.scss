@@ -2,16 +2,28 @@
 
 $color: #fe9e16;
 $hover: #fe9e16;
+$text-transform: none;
 
 // EDITORS
 $text-decoration: none;
 $section-title--alt-font: 'Open Sans', Helvetica, Arial, sans-serif;
-$editor__name: 'Oswald', Helvetica, Arial, sans-serif;
+$editor__name: 'proxima_nova_softbold', sans-serif;
+$editor__tag: 'Open Sans', Helvetica, Arial, sans-serif;
 
 // POST-CARD
-$post-card__title: 'Oswald', Helvetica, Arial, sans-serif;
-// $post-card__category:
-// $post-card__editor:
-$post-card__snippet: 'Oswald', Helvetica, Arial, sans-serif;
-// $post-card__date:
-$text-transform: none;
+$post-card__title: 'proxima_nova_softbold', sans-serif;
+$post-card__category: 'Open Sans', Helvetica, Arial, sans-serif;
+$post-card__editor: 'proxima_nova_softbold', sans-serif;
+$post-card__snippet: 'Open Sans', Helvetica, Arial, sans-serif;
+$post-card__date: 'Open Sans', Helvetica, Arial, sans-serif;
+
+// FONTS
+@font-face {
+  font-family: 'proxima_nova_softbold';
+  src: url('../fonts/ProximaNova/proxima_nova_softbold.eot') format('embedded-opentype');
+  src: url('../fonts/ProximaNova/proxima_nova_softbold.woff') format('woff'),
+    url('../fonts/ProximaNova/proxima_nova_softbold.woff2') format('woff2'),
+    url('../fonts/ProximaNova/proxima_nova_softbold.ttf')  format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}

@@ -2,16 +2,38 @@
 
 $color: #d2322d;
 $hover: #d2322d;
+$text-transform: none;
 
 // EDITORS
 $text-decoration: none;
 $section-title--alt-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$editor__name: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$editor__name: 'Bariol', Helvetica Neue, Helvetica, Arial, sans-serif;
+$editor__tag: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 // POST-CARD
-$post-card__title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$post-card__title: 'Bariol', Helvetica Neue, Helvetica, Arial, sans-serif;
 $post-card__category: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $post-card__editor: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $post-card__snippet: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $post-card__date: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$text-transform: none;
+
+
+@font-face {
+  font-family: 'Bariol';
+  src: url('http://s2.thcdn.com/fe/fonts/mygeekbox/bariol.woff'),
+    url('http://s2.thcdn.com/fe/fonts/mygeekbox/bariol.woff2') format("woff2");
+  font-weight:400;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: 'FuturaCon-Med';
+  src: url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-medium.eot');
+  src: url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-medium.eot#iefix') format("embedded-opentype"),
+    url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-medium.woff2') format("woff2"),
+    url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-medium.woff') format("woff"),
+    url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-medium.ttf') format("truetype"),
+    url('http://s2.thcdn.com/fe/fonts/hqint/futura-cond-medium.svg#youworkforthem') format("svg");
+  font-weight:400;
+  font-style:normal;
+}

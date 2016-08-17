@@ -1,4 +1,4 @@
-@import '../sites/pbk';
+@import '../sites/zavvi';
 
 html {
   box-sizing: border-box;
@@ -23,7 +23,7 @@ body {
 
 a {
   background-color: transparent;
-  color: $color;
+  color: $black;
   text-decoration: none;
   touch-action: manipulation;
 
@@ -58,6 +58,7 @@ h4 {
   line-height: 1.1;
   margin-bottom: .5rem;
   margin-top: 0;
+  text-transform: $text-transform;
 }
 
 p {
@@ -222,18 +223,3 @@ p {
   font-family: $post-card__editor;
   text-transform: capitalize;
 }
-
-//   a {
-//     color: $hover;
-//
-//     &:focus {
-//       color: $color;
-//       text-decoration: none;
-//     }
-//
-//     &:hover {
-//       color: $hover;
-//       text-decoration: none;
-//     }
-//   }
-// }
