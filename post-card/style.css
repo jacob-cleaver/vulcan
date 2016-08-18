@@ -187,8 +187,26 @@
   src: local("Oswald Bold"), local("Oswald-Bold"), url("https://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6ZBw1xU1rKptJj_0jans920.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
-.post-card__title {
-  text-transform: uppercase; }
+@font-face {
+  font-family: 'tstar-medium';
+  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstar-medium.eot");
+  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstar-medium.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.svg#tstar-heavy") format("svg"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-medium.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'tstar-heavy';
+  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.eot");
+  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.svg#tstar-heavy") format("svg"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'tstar-mono-round';
+  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstarmonoroundbol-webfont.eot");
+  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstarmonoroundbol-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/zvint/tstarmonoroundbol-webfont.svg#tstar-mono-round") format("svg"), url("http://s2.thcdn.com/fe/fonts/zvint/tstarmonoroundbol-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/zvint/tstarmonoroundbol-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
 
 html {
   box-sizing: border-box;
@@ -217,11 +235,11 @@ a {
   a:active {
     outline-width: 0; }
   a:hover {
-    color: #b51218;
+    color: #69bc28;
     outline-width: 0;
     text-decoration: underline; }
   a:focus {
-    color: #b51218;
+    color: #69bc28;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
     text-decoration: underline; }
@@ -232,7 +250,7 @@ img {
 
 h4 {
   color: inherit;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "tstar-heavy", sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.1;
@@ -306,15 +324,15 @@ p {
 .post-card__link {
   text-decoration: none; }
   .post-card__link:focus {
-    color: #b51218;
+    color: #69bc28;
     text-decoration: none; }
   .post-card__link:hover {
-    color: #b51218;
+    color: #69bc28;
     text-decoration: none; }
 
 .post-card__title {
   color: #000;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "tstar-heavy", sans-serif;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 1.4;
@@ -329,7 +347,7 @@ p {
 .post-card__category {
   color: #000;
   display: block;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-size: .625rem;
   font-weight: 700;
@@ -344,12 +362,11 @@ p {
   width: 100%; }
 
 .post-card__editor {
-  color: #b51218;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  text-transform: capitalize; }
+  color: #69bc28;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .post-card__snippet {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: .875rem;
   margin-bottom: 16px;
@@ -361,4 +378,4 @@ p {
   margin: 0; }
 
 .post-card__date {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }

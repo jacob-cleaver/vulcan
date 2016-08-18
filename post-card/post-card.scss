@@ -1,4 +1,4 @@
-@import '../sites/mass';
+@import '../sites/zavvi';
 
 html {
   box-sizing: border-box;
@@ -204,7 +204,6 @@ p {
 .post-card__editor {
   color: $color;
   font-family: $post-card__editor;
-  text-transform: capitalize;
 }
 
 .post-card__snippet {

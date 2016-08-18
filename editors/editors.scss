@@ -1,4 +1,4 @@
-@import '../sites/mass';
+@import '../sites/mybag';
 
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -142,7 +142,7 @@ img {
   &::after {
     background-color: $color;
     content: '';
-    display: block;
+    display: $display;
     height: 2px;
     height: .125rem;
     margin: .9375rem auto 0;
