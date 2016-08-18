@@ -188,17 +188,11 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 @font-face {
-  font-family: 'bebas_neueregular_blog';
-  src: url("http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.eot");
-  src: url("http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.eot?#iefix") format("embedded-opentype"), url("http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.woff2") format("woff2"), url("http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.woff") format("woff"), url("http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.ttf") format("truetype"), url("http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.svg#bebas_neueregular") format("svg");
+  font-family: 'Bariol Regular';
+  src: url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.eot");
+  src: url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.woff2") format("woff2"), url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.ttf") format("truetype"), url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.svg#bariol_regular-webfont") format("svg");
   font-weight: 400;
   font-style: normal; }
-
-.editor__name {
-  letter-spacing: 1px; }
-
-.post-card__title {
-  letter-spacing: 1px; }
 
 html {
   box-sizing: border-box;
@@ -227,11 +221,11 @@ a {
   a:active {
     outline-width: 0; }
   a:hover {
-    color: #c03;
+    color: #776d6f;
     outline-width: 0;
     text-decoration: underline; }
   a:focus {
-    color: #c03;
+    color: #776d6f;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
     text-decoration: underline; }
@@ -242,7 +236,7 @@ img {
 
 h4 {
   color: inherit;
-  font-family: "bebas_neueregular_blog", sans-serif;
+  font-family: "Bariol Regular", Arial, sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.1;
@@ -316,15 +310,15 @@ p {
 .post-card__link {
   text-decoration: none; }
   .post-card__link:focus {
-    color: #c03;
+    color: #776d6f;
     text-decoration: none; }
   .post-card__link:hover {
-    color: #c03;
+    color: #776d6f;
     text-decoration: none; }
 
 .post-card__title {
   color: #000;
-  font-family: "bebas_neueregular_blog", sans-serif;
+  font-family: "Bariol Regular", Arial, sans-serif;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 1.4;
@@ -339,7 +333,7 @@ p {
 .post-card__category {
   color: #000;
   display: block;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Bariol Regular", Arial, sans-serif;
   font-size: 10px;
   font-size: .625rem;
   font-weight: 700;
@@ -354,8 +348,8 @@ p {
   width: 100%; }
 
 .post-card__editor {
-  color: #c03;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+  color: #776d6f;
+  font-family: "Bariol Regular", Arial, sans-serif; }
 
 .post-card__snippet {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -370,4 +364,4 @@ p {
   margin: 0; }
 
 .post-card__date {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+  font-family: "Bariol Regular", Arial, sans-serif; }
