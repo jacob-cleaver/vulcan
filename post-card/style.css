@@ -188,9 +188,9 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 @font-face {
-  font-family: 'proxima_nova_softbold';
-  src: url("../fonts/ProximaNova/proxima_nova_softbold.eot") format("embedded-opentype");
-  src: url("../fonts/ProximaNova/proxima_nova_softbold.woff") format("woff"), url("../fonts/ProximaNova/proxima_nova_softbold.woff2") format("woff2"), url("../fonts/ProximaNova/proxima_nova_softbold.ttf") format("truetype");
+  font-family: 'Gotham Book';
+  src: url("../fonts/GothamBook/GothamBook.eot") format("embedded-opentype");
+  src: url("../fonts/GothamBook/GothamBook.woff") format("woff"), url("../fonts/GothamBook/GothamBook.ttf") format("truetype"), url("../fonts/GothamBook/GothamBook.svg#GothamBook") format("svg");
   font-weight: 400;
   font-style: normal; }
 
@@ -221,11 +221,11 @@ a {
   a:active {
     outline-width: 0; }
   a:hover {
-    color: #fe9e16;
+    color: #320b70;
     outline-width: 0;
     text-decoration: underline; }
   a:focus {
-    color: #fe9e16;
+    color: #320b70;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
     text-decoration: underline; }
@@ -236,7 +236,7 @@ img {
 
 h4 {
   color: inherit;
-  font-family: "proxima_nova_softbold", sans-serif;
+  font-family: "Gotham Book", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.1;
@@ -310,15 +310,15 @@ p {
 .post-card__link {
   text-decoration: none; }
   .post-card__link:focus {
-    color: #fe9e16;
+    color: #320b70;
     text-decoration: none; }
   .post-card__link:hover {
-    color: #fe9e16;
+    color: #320b70;
     text-decoration: none; }
 
 .post-card__title {
   color: #000;
-  font-family: "proxima_nova_softbold", sans-serif;
+  font-family: "Gotham Book", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 1.4;
@@ -348,7 +348,7 @@ p {
   width: 100%; }
 
 .post-card__editor {
-  color: #fe9e16;
+  color: #320b70;
   font-family: "Open Sans", Helvetica, Arial, sans-serif; }
 
 .post-card__snippet {
