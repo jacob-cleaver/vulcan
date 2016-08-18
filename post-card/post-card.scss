@@ -166,6 +166,7 @@ p {
 
 .post-card__title {
   color: $black;
+  font-family: $post-card__title;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 1.4;
@@ -200,6 +201,12 @@ p {
   width: 100%;
 }
 
+.post-card__editor {
+  color: $color;
+  font-family: $post-card__editor;
+  text-transform: capitalize;
+}
+
 .post-card__snippet {
   font-family: $post-card__snippet;
   font-size: 14px;
@@ -216,10 +223,4 @@ p {
 
 .post-card__date {
   font-family: $post-card__date;
-}
-
-.post-card__editor {
-  color: $color;
-  font-family: $post-card__editor;
-  text-transform: capitalize;
 }

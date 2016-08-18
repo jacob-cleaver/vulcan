@@ -332,6 +332,7 @@ p {
 
 .post-card__title {
   color: #000;
+  font-family: "tstar-heavy", sans-serif;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 1.4;
@@ -360,6 +361,11 @@ p {
   object-fit: cover;
   width: 100%; }
 
+.post-card__editor {
+  color: #69bc28;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: capitalize; }
+
 .post-card__snippet {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -374,8 +380,3 @@ p {
 
 .post-card__date {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
-
-.post-card__editor {
-  color: #69bc28;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: capitalize; }
