@@ -181,18 +181,14 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 @font-face {
-  font-family: 'PT-Sans-Narrow';
-  src: url("http://s2.thcdn.com/fe/fonts/coggles/PTN57F-webfont.eot");
-  src: url("http://s2.thcdn.com/fe/fonts/coggles/PTN57F-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/coggles/PTN57F-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/coggles/PTN57F-webfont.ttf") format("truetype"), url("http://s2.thcdn.com/fe/fonts/coggles/PTN57F-webfont.svg#pt_sans_narrow_bold") format("svg");
-  font-weight: 400;
-  font-style: normal; }
+  font-family: 'Oswald Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Oswald Bold"), local("Oswald-Bold"), url("https://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6ZBw1xU1rKptJj_0jans920.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
-@font-face {
-  font-family: 'PT-Sans-Narrow-Bold';
-  src: url("http://s2.thcdn.com/fe/fonts/coggles/PTN77F-webfont.eot");
-  src: url("http://s2.thcdn.com/fe/fonts/coggles/PTN77F-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/coggles/PTN77F-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/coggles/PTN77F-webfont.ttf") format("truetype"), url("http://s2.thcdn.com/fe/fonts/coggles/PTN77F-webfont.svg#pt_sans_narrow_bold") format("svg");
-  font-weight: 400;
-  font-style: normal; }
+.post-card__title {
+  text-transform: uppercase; }
 
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -209,7 +205,7 @@ h3 {
 
 h4 {
   color: inherit;
-  font-family: "PT-Sans-Narrow-Bold";
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.1;
@@ -261,20 +257,20 @@ img {
 .editor__link {
   color: #000; }
   .editor__link:focus {
-    color: #fff;
+    color: #b51218;
     text-decoration: none; }
   .editor__link:hover {
-    color: #333;
+    color: #b51218;
     text-decoration: none; }
 
 .editor__name {
   color: #000;
   text-decoration: none; }
   .editor__name:focus {
-    color: #fff;
+    color: #b51218;
     text-decoration: none; }
   .editor__name:hover {
-    color: #333;
+    color: #b51218;
     text-decoration: none; }
 
 .editor__tag {
@@ -305,7 +301,7 @@ img {
   text-align: center;
   text-transform: uppercase; }
   .section-title--alt::after {
-    background-color: #fff;
+    background-color: #b51218;
     content: '';
     display: block;
     height: 2px;
