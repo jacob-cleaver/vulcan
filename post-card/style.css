@@ -188,17 +188,26 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 @font-face {
-  font-family: 'Futura-Book';
-  src: url("http://s2.thcdn.com/fe/fonts/lancer/futura-book.eot");
-  src: url("http://s2.thcdn.com/fe/fonts/lancer/futura-book.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/lancer/futura-book.woff2") format("woff2"), url("http://s2.thcdn.com/fe/fonts/lancer/futura-book.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/lancer/futura-book.ttf") format("truetype"), url("http://s2.thcdn.com/fe/fonts/lancer/futura-book.svg#youworkforthem") format("svg");
+  font-family: 'FuturaStd-Book';
+  src: url("http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.eot");
+  src: url("http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.ttf") format("truetype"), url("http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.otf") format("opentype"), url("http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.svg#FuturaStd-Book") format("svg");
   font-weight: 400;
-  font-style: normal; }
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-25CA; }
 
 .editor__name {
-  letter-spacing: .5px; }
+  font-size: 1.15rem; }
+
+.post-card__editor {
+  text-transform: uppercase; }
 
 .post-card__title {
-  letter-spacing: .5px; }
+  text-transform: uppercase; }
+
+.post-card__text .post-card__snippet {
+  font-size: 13px;
+  font-size: .813rem; }
 
 html {
   box-sizing: border-box;
@@ -227,11 +236,11 @@ a {
   a:active {
     outline-width: 0; }
   a:hover {
-    color: #006e9e;
+    color: #000;
     outline-width: 0;
     text-decoration: underline; }
   a:focus {
-    color: #006e9e;
+    color: #000;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
     text-decoration: underline; }
@@ -242,7 +251,7 @@ img {
 
 h4 {
   color: inherit;
-  font-family: "Futura-Book";
+  font-family: "FuturaStd-Book", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.1;
@@ -316,15 +325,15 @@ p {
 .post-card__link {
   text-decoration: none; }
   .post-card__link:focus {
-    color: #006e9e;
+    color: #000;
     text-decoration: none; }
   .post-card__link:hover {
-    color: #006e9e;
+    color: #000;
     text-decoration: none; }
 
 .post-card__title {
   color: #000;
-  font-family: "Futura-Book";
+  font-family: "FuturaStd-Book", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 1.4;
@@ -339,7 +348,7 @@ p {
 .post-card__category {
   color: #000;
   display: block;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: FuturaStd-Book, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-size: .625rem;
   font-weight: 700;
@@ -354,8 +363,8 @@ p {
   width: 100%; }
 
 .post-card__editor {
-  color: #006e9e;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+  color: #000;
+  font-family: FuturaStd-Book, Helvetica Neue, Helvetica, Arial, sans-serif; }
 
 .post-card__snippet {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
