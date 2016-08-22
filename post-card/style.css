@@ -246,7 +246,8 @@ a {
 
 img {
   border-style: none;
-  vertical-align: middle; }
+  vertical-align: middle;
+  max-width: 100%; }
 
 h4 {
   color: inherit;
