@@ -18,6 +18,13 @@ $post-card__editor: 'PT-Sans-Narrow-Bold';
 $post-card__snippet: 'PT-Sans-Narrow';
 $post-card__date: 'PT-Sans-Narrow';
 
+.post-card__category:hover {
+  text-decoration: underline;
+}
+
+// AUTHOR_INFO
+$author-info__heading__link: 'PT-Sans-Narrow-Bold';
+
 // FONTS
 @font-face {
   font-family: 'PT-Sans-Narrow';
