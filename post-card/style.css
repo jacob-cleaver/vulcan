@@ -278,13 +278,9 @@ p {
   width: 100%; }
   .post-card--inline .post-card__media {
     display: table-cell;
-    height: 200px;
-    height: 12.5rem;
     padding-right: 24px;
     padding-right: 1.5rem;
-    vertical-align: middle;
-    width: 270px;
-    width: 16.875rem; }
+    vertical-align: middle; }
   .post-card--inline .post-card__text {
     display: table-cell;
     max-width: 434px;
