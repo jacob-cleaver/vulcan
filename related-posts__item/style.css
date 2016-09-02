@@ -338,8 +338,7 @@ p {
 .post-card__image {
   height: 100%;
   margin: 0;
-  object-fit: cover;
-  width: 100%; }
+  object-fit: cover; }
 
 .post-card__editor {
   color: #28bdb3;
