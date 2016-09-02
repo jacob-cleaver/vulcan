@@ -67,16 +67,23 @@ p {
   margin-top: 0;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: .9375rem;
+  padding-right: .9375rem;
+  overflow: hidden;
+
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
+
 .narrow-container {
   margin-left: auto;
   margin-right: auto;
-}
-
-@media (min-width: 50em) {
-  .narrow-container {
-    max-width: 800px;
-    max-width: 50rem;
-  }
 }
 
 .post-card {
@@ -86,24 +93,14 @@ p {
 
 .post-card--inline {
   border-top: 1px solid $light-gray;
-  padding: 1.5rem 0;
+  padding: 18px 0;
+  padding: 1.125rem 0;
   width: 100%;
   .post-card__media {
     display: table-cell;
-    height: 200px;
-    height: 12.5rem;
     padding-right: 24px;
     padding-right: 1.5rem;
     vertical-align: middle;
-    width: 270px;
-    width: 16.875rem;
-  }
-
-  .post-card__image {
-    height: 200px;
-    height: 12.5rem;
-    width: 270px;
-    width: 16.875rem;
   }
 
   .post-card__text {
@@ -111,11 +108,6 @@ p {
     max-width: 434px;
     max-width: 27.125rem;
     vertical-align: middle;
-  }
-
-  .post-card__category {
-    margin-top: 12px;
-    margin-top: .75rem;
   }
 
   .post-card__title {
@@ -126,18 +118,6 @@ p {
 
   .post-card__snippet {
     display: block;
-  }
-}
-
-@media (min-width: 32em) {
-  .post-card--inline {
-    .post-card__media {
-      width: auto;
-    }
-
-    .post-card__image {
-      width: auto;
-    }
   }
 }
 
@@ -191,15 +171,7 @@ p {
   font-size: .625rem;
   font-weight: 700;
   letter-spacing: .1em;
-  margin: .75rem 0 0;
   text-transform: uppercase;
-}
-
-.post-card__image {
-  height: 100%;
-  margin: 0;
-  object-fit: cover;
-  width: 100%;
 }
 
 .post-card__editor {
@@ -225,7 +197,11 @@ p {
   font-family: $post-card__date;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
   .post-card--inline {
     .post-card__title {
       font-size: 16px;
@@ -235,5 +211,26 @@ p {
     .post-card__snippet {
       display: none;
     }
+  }
+}
+
+@media (min-width: 32em) {
+  .post-card--inline {
+    .post-card__media {
+      width: auto;
+    }
+  }
+}
+
+@media (min-width: 50em) {
+  .narrow-container {
+    max-width: 800px;
+    max-width: 50rem;
+  }
+}
+
+@media (max-width: 544px) {
+  .container {
+    max-width: 576px;
   }
 }
