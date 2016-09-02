@@ -285,11 +285,6 @@ p {
     vertical-align: middle;
     width: 270px;
     width: 16.875rem; }
-  .post-card--inline .post-card__image {
-    height: 200px;
-    height: 12.5rem;
-    width: 270px;
-    width: 16.875rem; }
   .post-card--inline .post-card__text {
     display: table-cell;
     max-width: 434px;
@@ -307,8 +302,6 @@ p {
 
 @media (min-width: 32em) {
   .post-card--inline .post-card__media {
-    width: auto; }
-  .post-card--inline .post-card__image {
     width: auto; } }
 
 .post-card__media {
@@ -351,12 +344,6 @@ p {
   letter-spacing: .1em;
   margin: .75rem 0 0;
   text-transform: uppercase; }
-
-.post-card__image {
-  height: 100%;
-  margin: 0;
-  object-fit: cover;
-  width: 100%; }
 
 .post-card__editor {
   color: #000;
