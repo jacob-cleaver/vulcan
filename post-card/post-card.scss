@@ -72,6 +72,13 @@ p {
   margin-right: auto;
   padding-left: .9375rem;
   padding-right: .9375rem;
+  overflow: hidden;
+
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
 }
 
 .narrow-container {
@@ -86,7 +93,8 @@ p {
 
 .post-card--inline {
   border-top: 1px solid $light-gray;
-  padding: 1.5rem 0;
+  padding: 18px 0;
+  padding: 1.125rem 0;
   width: 100%;
   .post-card__media {
     display: table-cell;
@@ -227,7 +235,7 @@ p {
   }
 }
 
-@media (min-width: 544px) {
+@media (max-width: 544px) {
   .container {
     max-width: 576px;
   }

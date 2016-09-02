@@ -263,7 +263,12 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding-left: .9375rem;
-  padding-right: .9375rem; }
+  padding-right: .9375rem;
+  overflow: hidden; }
+  .container:after {
+    clear: both;
+    content: '';
+    display: table; }
 
 .narrow-container {
   margin-left: auto;
@@ -275,7 +280,8 @@ p {
 
 .post-card--inline {
   border-top: 1px solid #eceeef;
-  padding: 1.5rem 0;
+  padding: 18px 0;
+  padding: 1.125rem 0;
   width: 100%; }
   .post-card--inline .post-card__media {
     display: table-cell;
@@ -375,6 +381,6 @@ p {
     max-width: 800px;
     max-width: 50rem; } }
 
-@media (min-width: 544px) {
+@media (max-width: 544px) {
   .container {
     max-width: 576px; } }
