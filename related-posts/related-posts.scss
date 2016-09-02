@@ -1,4 +1,4 @@
-@import '../sites/coggles';
+@import '../sites/zavvi';
 
 html {
   box-sizing: border-box;
@@ -225,15 +225,23 @@ p {
   font-family: $post-card__date;
 }
 
-@media (max-width: 767px) {
-  .post-card--inline {
-    .post-card__title {
-      font-size: 16px;
-      font-size: 1rem;
-    }
+.post-content {
+  width: 100%;
+  clear: both;
+}
 
-    .post-card__snippet {
-      display: none;
-    }
+.text-center {
+  text-align: center;
+}
+
+.m-x-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 48em) {
+  .post-content {
+    max-width: 700px;
+    max-width: 43.75rem;
   }
 }
