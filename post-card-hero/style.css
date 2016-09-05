@@ -314,9 +314,7 @@ img {
   width: 100%;
   height: auto;
   display: block;
-  padding-right: 0;
-  max-height: 270px;
-  max-height: 16.875rem; }
+  padding-right: 0; }
   .post-card__media .post-card__link {
     height: 100%;
     max-height: 270px;
