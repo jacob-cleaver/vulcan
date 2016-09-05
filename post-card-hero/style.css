@@ -188,21 +188,17 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 @font-face {
-  font-family: 'league_gothicregular';
-  src: url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-regular-webfont.eot");
-  src: url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-regular-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-regular-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-regular-webfont.ttf") format("truetype"), url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-regular-webfont.svg#league_gothicregular") format("svg");
-  font-style: normal;
-  font-weight: 400; }
-
-@font-face {
-  font-family: 'league_gothicCnRg';
-  src: url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-condensedregular-webfont.eot");
-  src: url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-condensedregular-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-condensedregular-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-condensedregular-webfont.ttf") format("truetype"), url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg") format("svg");
+  font-family: 'bebas_neueregular_blog';
+  src: url("http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.eot");
+  src: url("http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.eot?#iefix") format("embedded-opentype"), url("http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.woff2") format("woff2"), url("http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.woff") format("woff"), url("http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.ttf") format("truetype"), url("http://d1ap1gpflanesc.cloudfront.net/dist/fonts/bebasneue-webfont.svg#bebas_neueregular") format("svg");
   font-weight: 400;
   font-style: normal; }
 
+.editor__name {
+  letter-spacing: 1px; }
+
 .post-card__title {
-  letter-spacing: .05em; }
+  letter-spacing: 1px; }
 
 html {
   font-family: sans-serif;
@@ -234,28 +230,44 @@ img {
 
 @media (min-width: 544px) {
   .container {
-    max-width: 576px; } }
+    max-width: 576px; }
+    .container .post-card--hero .post-card__media {
+      width: 100%; }
+    .container .post-card--hero .post-card__text {
+      width: 100%; } }
 
 @media (min-width: 768px) {
   .container {
-    max-width: 720px; } }
+    max-width: 720px; }
+    .container .post-card--hero .post-card__media {
+      width: 62%; }
+    .container .post-card--hero .post-card__text {
+      width: 38%; } }
 
 @media (min-width: 992px) {
   .container {
     max-width: 940px; }
+    .container .post-card--hero .post-card__media {
+      width: 62%; }
+    .container .post-card--hero .post-card__text {
+      width: 38%; }
   .col-lg-12 {
     float: left;
     width: 100%; } }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px; }
+    .container .post-card--hero .post-card__media {
+      width: 62%; }
+    .container .post-card--hero .post-card__text {
+      width: 38%; } }
 
 .col-lg-12 {
   min-height: 1px;
   padding-left: .9375rem;
   padding-right: .9375rem;
   position: relative; }
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1200px; } }
 
 .row {
   margin-left: -.9375rem;
@@ -289,8 +301,7 @@ img {
 .post-card--hero .post-card__text {
   display: inline-block;
   padding-right: 0;
-  vertical-align: middle;
-  width: 38%; }
+  vertical-align: middle; }
 
 .post-card--hero .post-card__title {
   font-size: 40px;
@@ -300,15 +311,10 @@ img {
 
 .post-card--hero .post-card__media {
   display: inline-block;
-  height: 500px;
-  height: 31.25rem;
-  width: 62%;
   vertical-align: middle; }
 
 .post-card__link {
-  height: 100%;
-  max-height: 270px;
-  max-height: 16.875rem; }
+  height: 100%; }
 
 .post-card__title {
   font-size: 16px;
@@ -330,23 +336,22 @@ img {
 
 .post-card__image {
   margin: 0;
-  object-fit: cover; }
+  object-fit: cover;
+  width: 100%; }
 
 .post-card__link {
   color: #000;
   text-decoration: none; }
   .post-card__link:focus {
-    color: #000;
+    color: #c03;
     text-decoration: none; }
   .post-card__link:hover {
-    color: #000;
+    color: #c03;
     text-decoration: none; }
 
 .post-card__text {
   color: #777;
   display: table-cell;
-  max-width: 434px;
-  max-width: 27.125rem;
   vertical-align: middle; }
 
 .post-card__category {
@@ -368,7 +373,7 @@ img {
   margin-top: .25rem; }
 
 .post-card__title {
-  font-family: "league_gothicregular", Arial, Verdana, Helvetica;
+  font-family: "bebas_neueregular_blog", sans-serif;
   font-weight: 400;
   letter-spacing: .05em;
   line-height: 1em; }
@@ -396,10 +401,9 @@ img {
   font-size: .75rem;
   margin: 0; }
   .post-card__meta a {
-    color: #000; }
+    color: #c03;
+    text-decoration: none; }
     .post-card__meta a:focus {
-      color: #000;
-      text-decoration: none; }
+      color: #c03; }
     .post-card__meta a:hover {
-      color: #000;
-      text-decoration: none; }
+      color: #c03; }
