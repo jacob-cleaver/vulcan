@@ -1,3 +1,18 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald:300,400,700';
+@font-face {
+  font-family: 'TeXGyreAdventorRegular';
+  src: url("http://s2.thcdn.com/fe/fonts/beautexpert/texgyreadventor-regular-webfont.eot");
+  src: url("http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-regular-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-regular-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-regular-webfont.ttf") format("truetype"), url("http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-regular-webfont.svg#texgyreadventorregular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'TeXGyreAdventorBold';
+  src: url("http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-bold-webfont.eot");
+  src: url("http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-bold-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-bold-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-bold-webfont.ttf") format("truetype"), url("http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-bold-webfont.svg#texgyreadventorbold") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -140,69 +155,28 @@
 
 @font-face {
   font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 300;
-  src: local("Oswald Light"), local("Oswald-Light"), url("https://fonts.gstatic.com/s/oswald/v10/l1cOQ90roY9yC7voEhngDIX0hVgzZQUfRDuZrPvH3D8.woff2") format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+  font-style: normal; }
 
 @font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 300;
-  src: local("Oswald Light"), local("Oswald-Light"), url("https://fonts.gstatic.com/s/oswald/v10/HqHm7BVC_nzzTui2lzQTDZBw1xU1rKptJj_0jans920.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Oswald Regular"), local("Oswald-Regular"), url("https://fonts.gstatic.com/s/oswald/v10/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2") format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
-
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Oswald Regular"), local("Oswald-Regular"), url("https://fonts.gstatic.com/s/oswald/v10/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-
-@font-face {
-  font-family: 'Oswald Bold';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Oswald Bold"), local("Oswald-Bold"), url("https://fonts.gstatic.com/s/oswald/v10/dI-qzxlKVQA6TUC5RKSb34X0hVgzZQUfRDuZrPvH3D8.woff2") format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
-
-@font-face {
-  font-family: 'Oswald Bold';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Oswald Bold"), local("Oswald-Bold"), url("https://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6ZBw1xU1rKptJj_0jans920.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-
-@font-face {
-  font-family: 'Oswald Bold';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Oswald Bold"), local("Oswald-Bold"), url("https://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6ZBw1xU1rKptJj_0jans920.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-
-@font-face {
-  font-family: 'league_gothicregular';
-  src: url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-regular-webfont.eot");
-  src: url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-regular-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-regular-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-regular-webfont.ttf") format("truetype"), url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-regular-webfont.svg#league_gothicregular") format("svg");
-  font-style: normal;
-  font-weight: 400; }
-
-@font-face {
-  font-family: 'league_gothicCnRg';
-  src: url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-condensedregular-webfont.eot");
-  src: url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-condensedregular-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-condensedregular-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-condensedregular-webfont.ttf") format("truetype"), url("http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg") format("svg");
+  font-family: 'tstar-medium';
+  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstar-medium.eot");
+  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstar-medium.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.svg#tstar-heavy") format("svg"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-medium.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.ttf") format("truetype");
   font-weight: 400;
   font-style: normal; }
 
-.post-card__title {
-  letter-spacing: .05em; }
+@font-face {
+  font-family: 'tstar-heavy';
+  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.eot");
+  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.svg#tstar-heavy") format("svg"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/zvint/tstar-heavy-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'tstar-mono-round';
+  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstarmonoroundbol-webfont.eot");
+  src: url("http://s2.thcdn.com/fe/fonts/zvint/tstarmonoroundbol-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/zvint/tstarmonoroundbol-webfont.svg#tstar-mono-round") format("svg"), url("http://s2.thcdn.com/fe/fonts/zvint/tstarmonoroundbol-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/zvint/tstarmonoroundbol-webfont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
 
 html {
   box-sizing: border-box;
@@ -214,9 +188,9 @@ html {
   -webkit-text-size-adjust: 100%; }
 
 body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #fff;
   color: #373a3c;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   margin: 0;
@@ -237,16 +211,6 @@ img {
   border-style: none;
   vertical-align: middle;
   max-width: 100%; }
-
-h4 {
-  color: inherit;
-  font-family: "league_gothicregular", Arial, Verdana, Helvetica;
-  font-size: 1.3rem;
-  font-weight: 400;
-  line-height: 1.1;
-  margin-bottom: .5rem;
-  margin-top: 0;
-  text-transform: none; }
 
 p {
   margin-bottom: 1rem;
@@ -270,8 +234,8 @@ hr {
   text-align: center; }
 
 .m-x-auto {
-  margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  margin-right: auto; }
 
 .post-content-width {
   width: 100%; }
@@ -286,8 +250,8 @@ hr {
   text-align: center; }
 
 .p-y-2 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem; }
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem; }
 
 .author-info__avatar {
   display: block;
@@ -299,20 +263,31 @@ hr {
   margin: 0 auto 1.125rem;
   overflow: hidden; }
 
+.media-object {
+  display: block; }
+
+.img-circle {
+  border-radius: 50%; }
+
+.author-info__image {
+  width: 100%;
+  height: auto; }
+
 .author-info__text {
   display: block; }
 
 .author-info__heading {
-  padding: 0;
-  margin-top: 0;
+  color: #000;
+  font-family: "tstar-heavy", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
   margin-bottom: 8px;
   margin-bottom: .5rem;
-  line-height: 1;
-  font-size: 16px;
-  font-size: 1rem; }
-
-.author-info__heading__link {
-  color: #000; }
+  margin-top: 0;
+  padding: 0;
+  text-transform: none; }
 
 .author-info__subheader {
   display: block;

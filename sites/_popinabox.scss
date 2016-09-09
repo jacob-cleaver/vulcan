@@ -7,18 +7,20 @@ $display: block;
 
 // EDITORS
 $text-decoration: none;
-$section-title--alt-font: 'Open Sans', Helvetica, Arial, sans-serif;
+$section-title--alt-font: $open-sans;
 $editor__name: 'ClearSansLight', ClearSans, Helvetica Neue, Helvetica, Arial, sans-serif;
-$editor__tag: 'Open Sans', Helvetica, Arial, sans-serif;
+$editor__tag: $open-sans;
 
 // POST-CARD
 $post-card__title: 'ClearSansLight', ClearSans, Helvetica Neue, Helvetica, Arial, sans-serif;
 $post-card__category: 'ClearSansLight', ClearSans, Helvetica Neue, Helvetica, Arial, sans-serif;
 $post-card__editor: 'ClearSansLight', ClearSans, Helvetica Neue, Helvetica, Arial, sans-serif;
-$post-card__snippet: 'Open Sans', Helvetica, Arial, sans-serif;
-$post-card__date: 'Open Sans', Helvetica, Arial, sans-serif;
+$post-card__snippet: $open-sans;
+$post-card__date: $open-sans;
 
-
+// AUTHOR_INFO
+$author-info__heading: 'ClearSansLight', ClearSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+$body: $open-sans;
 // FONTS
 @font-face {
   font-family: 'ClearSansLight';

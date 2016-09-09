@@ -7,9 +7,9 @@ $display: none;
 
 // EDITORS
 $text-decoration: none;
-$section-title--alt-font: 'Open Sans', Helvetica, Arial, sans-serif;
+$section-title--alt-font: $open-sans;
 $editor__name: 'PT-Sans-Narrow-Bold';
-$editor__tag: 'Open Sans', Helvetica, Arial, sans-serif;
+$editor__tag: $open-sans;
 
 // POST-CARD
 $post-card__title: 'PT-Sans-Narrow-Bold';
@@ -23,7 +23,8 @@ $post-card__date: 'PT-Sans-Narrow';
 }
 
 // AUTHOR_INFO
-$author-info__heading__link: 'PT-Sans-Narrow-Bold';
+$author-info__heading: 'PT-Sans-Narrow-Bold';
+$body: 'TeXGyreAdventorRegular', Helvetica Neue, Helvetica, Arial, sans-serif;
 
 // FONTS
 @font-face {

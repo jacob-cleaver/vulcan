@@ -1,7 +1,7 @@
-@import '../sites/pbk';
+@import '../sites/mybag';
 
 body {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: $open-sans;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -13,17 +13,6 @@ h3 {
   line-height: 1.1;
   margin-bottom: .5rem;
   margin-top: 0;
-}
-
-h4 {
-  color: inherit;
-  font-family: $editor__name;
-  font-size: 1.3rem;
-  font-weight: 400;
-  line-height: 1.1;
-  margin-bottom: .5rem;
-  margin-top: 0;
-  text-transform: $text-transform;
 }
 
 p {
@@ -94,7 +83,14 @@ img {
 
 .editor__name {
   color: $black;
+  font-family: $editor__name;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: .5rem;
+  margin-top: 0;
   text-decoration: none;
+  text-transform: $text-transform;
 
   &:focus {
     color: $color;

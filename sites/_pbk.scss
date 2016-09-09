@@ -7,17 +7,21 @@ $display: block;
 
 // EDITORS
 $text-decoration: none;
-$section-title--alt-font: 'Open Sans', Helvetica, Arial, sans-serif;
+$section-title--alt-font: $open-sans;
 $editor__name: 'bebas_neueregular_blog', sans-serif;
-$editor__tag: 'Open Sans', Helvetica, Arial, sans-serif;
+$editor__tag: $open-sans;
 
 // POST-CARD
 $post-card__title: 'bebas_neueregular_blog', sans-serif;
-$post-card__category: 'Open Sans', Helvetica, Arial, sans-serif;
-$post-card__editor: 'Open Sans', Helvetica, Arial, sans-serif;
-$post-card__snippet: 'Open Sans', Helvetica, Arial, sans-serif;
-$post-card__date: 'Open Sans', Helvetica, Arial, sans-serif;
+$post-card__category: $open-sans;
+$post-card__editor: $open-sans;
+$post-card__snippet: $open-sans;
+$post-card__date: $open-sans;
 $text-transform: none;
+
+// AUTHOR_INFO
+$author-info__heading: 'bebas_neueregular_blog', sans-serif;
+$body: $open-sans;
 
 // FONTS
 @font-face {

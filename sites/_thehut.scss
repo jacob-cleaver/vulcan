@@ -7,13 +7,28 @@ $display: block;
 
 // EDITORS
 $text-decoration: none;
-$section-title--alt-font: 'Open Sans', Helvetica, Arial, sans-serif;
-$editor__name: 'Oswald Bold', Helvetica, Arial, sans-serif;
-$editor__tag: 'Open Sans', Helvetica, Arial, sans-serif;
+$section-title--alt-font: $open-sans;
+$editor__name: 'Oswald', Helvetica, Arial, sans-serif;
+$editor__tag: $open-sans;
 
 // POST-CARD
-$post-card__title: 'Oswald Bold', Helvetica, Arial, sans-serif;
+$post-card__title: 'Oswald', Helvetica, Arial, sans-serif;
 $post-card__category: 'Oswald', Helvetica, Arial, sans-serif;
 $post-card__editor: 'Oswald', Helvetica, Arial, sans-serif;
-$post-card__snippet: 'Open Sans', Helvetica, Arial, sans-serif;
-$post-card__date: 'Open Sans', Helvetica, Arial, sans-serif;
+$post-card__snippet: $open-sans;
+$post-card__date: $open-sans;
+
+// AUTHOR_INFO
+$author-info__heading: 'Oswald', Helvetica, Arial, sans-serif;
+$body: $open-sans;
+
+
+.editor__name, .post-card__title {
+  font-weight: 700;
+}
+
+.author-info__heading {
+  .author-info__heading__link {
+    font-weight: 700;
+  }
+}

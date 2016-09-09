@@ -7,20 +7,20 @@ $display: block;
 
 // EDITORS
 $text-decoration: none;
-$section-title--alt-font: 'Open Sans', Helvetica, Arial, sans-serif;
+$section-title--alt-font: $open-sans;
 $editor__name: 'league_gothicregular', Arial, Verdana, Helvetica;
-$editor__tag: 'Open Sans', Helvetica, Arial, sans-serif;
+$editor__tag: $open-sans;
 
 // POST-CARD
 $post-card__title: 'league_gothicregular', Arial, Verdana, Helvetica;
-$post-card__category: 'Open Sans', Helvetica, Arial, sans-serif;
-$post-card__editor: 'Open Sans', Helvetica, Arial, sans-serif;
-$post-card__snippet: 'Open Sans', Helvetica, Arial, sans-serif;
-$post-card__date: 'Open Sans', Helvetica, Arial, sans-serif;
+$post-card__category: $open-sans;
+$post-card__editor: $open-sans;
+$post-card__snippet: $open-sans;
+$post-card__date: $open-sans;
 
 // AUTHOR_INFO
-$author-info__heading__link: 'league_gothicregular', Arial, Verdana, Helvetica;
-
+$author-info__heading: 'Oswald', Helvetica, Arial, sans-serif;
+$body: $open-sans;
 
 // FONTS
 @font-face {

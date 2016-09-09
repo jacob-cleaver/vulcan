@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald:300,400,700';
+
 // COLORS
 $black: #000;
 $white: #fff;
@@ -5,8 +7,33 @@ $light-gray: #eceeef;
 $gray: #777;
 $dark-gray: #373a3c;
 
-
 // GENERAL FONTS
+$open-sans: 'Open Sans', Helvetica, Arial, sans-serif;
+$helvetica-neue: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+@font-face {
+  font-family: 'TeXGyreAdventorRegular';
+  src:url('http://s2.thcdn.com/fe/fonts/beautexpert/texgyreadventor-regular-webfont.eot');
+  src:url('http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-regular-webfont.eot#iefix') format("embedded-opentype"),
+    url('http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-regular-webfont.woff') format("woff"),
+    url('http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-regular-webfont.ttf') format("truetype"),
+    url('http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-regular-webfont.svg#texgyreadventorregular') format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TeXGyreAdventorBold';
+  src:url('http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-bold-webfont.eot');
+  src:url('http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-bold-webfont.eot#iefix') format("embedded-opentype"),
+    url('http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-bold-webfont.woff') format("woff"),
+    url('http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-bold-webfont.ttf') format("truetype"),
+    url('http://s2.thcdn.com/fe/fonts/beautyexpert/texgyreadventor-bold-webfont.svg#texgyreadventorbold') format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -147,52 +174,8 @@ $dark-gray: #373a3c;
   src: local('Open Sans Italic'), local('OpenSans-Italic'), url('https://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBogp9Q8gbYrhqGlRav_IXfk.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
+
 @font-face {
   font-family: 'Oswald';
   font-style: normal;
-  font-weight: 300;
-  src: local('Oswald Light'), local('Oswald-Light'), url('https://fonts.gstatic.com/s/oswald/v10/l1cOQ90roY9yC7voEhngDIX0hVgzZQUfRDuZrPvH3D8.woff2') format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Oswald Light'), local('Oswald-Light'), url('https://fonts.gstatic.com/s/oswald/v10/HqHm7BVC_nzzTui2lzQTDZBw1xU1rKptJj_0jans920.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Oswald Regular'), local('Oswald-Regular'), url('https://fonts.gstatic.com/s/oswald/v10/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2') format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Oswald Regular'), local('Oswald-Regular'), url('https://fonts.gstatic.com/s/oswald/v10/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-@font-face {
-  font-family: 'Oswald Bold';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Oswald Bold'), local('Oswald-Bold'), url('https://fonts.gstatic.com/s/oswald/v10/dI-qzxlKVQA6TUC5RKSb34X0hVgzZQUfRDuZrPvH3D8.woff2') format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-@font-face {
-  font-family: 'Oswald Bold';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Oswald Bold'), local('Oswald-Bold'), url('https://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6ZBw1xU1rKptJj_0jans920.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-@font-face {
-  font-family: 'Oswald Bold';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Oswald Bold'), local('Oswald-Bold'), url('https://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6ZBw1xU1rKptJj_0jans920.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }

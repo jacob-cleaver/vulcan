@@ -7,16 +7,17 @@ $display: block;
 
 // EDITORS
 $text-decoration: none;
-$section-title--alt-font: 'Open Sans', Helvetica, Arial, sans-serif;
+$section-title--alt-font: $open-sans;
 $editor__name: Georgia, 'Times New Roman', serif;
 $editor__tag: 'Verdana', Arial, sans-serif;
 
 // POST-CARD
 $post-card__title: Georgia, 'Times New Roman', serif;
-$post-card__category: 'Open Sans', Helvetica, Arial, sans-serif;
-$post-card__editor: 'Open Sans', Helvetica, Arial, sans-serif;
+$post-card__category: $open-sans;
+$post-card__editor: $open-sans;
 $post-card__snippet: 'Verdana', Arial, sans-serif;
-$post-card__date: 'Open Sans', Helvetica, Arial, sans-serif;
+$post-card__date: $open-sans;
 
 // AUTHOR_INFO
-$author-info__heading__link: Georgia, 'Times New Roman', serif;
+$author-info__heading: Georgia, 'Times New Roman', serif;
+$body: $open-sans;
