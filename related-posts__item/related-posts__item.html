@@ -7,7 +7,7 @@
   <div class="post-card post-card--inline post-card--featured post-card--related related-posts__item">
     <figure class="post-card__media">
       <a class="post-card__link" href="#" title="#">
-        <img class="post-card__image img-responsive responsive"
+        <!-- <img class="post-card__image img-responsive responsive"
           data-sixe-mobile="fetaured-image-thumbnail"
           data-sized-tablet="featured-image-thumbnail"
           data-featured-image-large="http://placehold.it/1200x672"
@@ -21,7 +21,16 @@
           data-image-grid-full-size="http://placehold.it/380x572"
           data-default="http://placehold.it/1200x672"
           src="http://placehold.it/253x142"
-          alt="Vitamin A in Skincare">
+          alt="Vitamin A in Skincare"> -->
+
+          <picture>
+            <source srcset="http://placehold.it/469x263" media="(max-width: 500px)">
+            <source srcset="http://placehold.it/233x130" media="(max-width: 768px)">
+            <source srcset="http://placehold.it/305x170" media="(max-width: 992px)">
+            <source srcset="http://placehold.it/415x232" media="(max-width: 1024px)">
+            <source srcset="http://placehold.it/187x105" media="(max-width: 1200px)">
+            <img class="post-card__image" src="http://placehold.it/252x141" alt="#">
+          <picture>
       </a>
     </figure>
     <div class="post-card__text">
