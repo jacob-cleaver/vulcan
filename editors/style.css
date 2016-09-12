@@ -155,6 +155,61 @@
 
 @font-face {
   font-family: 'Oswald';
+<<<<<<< HEAD
+=======
+  font-style: normal;
+  font-weight: 300;
+  src: local("Oswald Light"), local("Oswald-Light"), url("https://fonts.gstatic.com/s/oswald/v10/l1cOQ90roY9yC7voEhngDIX0hVgzZQUfRDuZrPvH3D8.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Oswald Light"), local("Oswald-Light"), url("https://fonts.gstatic.com/s/oswald/v10/HqHm7BVC_nzzTui2lzQTDZBw1xU1rKptJj_0jans920.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Oswald Regular"), local("Oswald-Regular"), url("https://fonts.gstatic.com/s/oswald/v10/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Oswald Regular"), local("Oswald-Regular"), url("https://fonts.gstatic.com/s/oswald/v10/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+@font-face {
+  font-family: 'Oswald Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Oswald Bold"), local("Oswald-Bold"), url("https://fonts.gstatic.com/s/oswald/v10/dI-qzxlKVQA6TUC5RKSb34X0hVgzZQUfRDuZrPvH3D8.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face {
+  font-family: 'Oswald Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Oswald Bold"), local("Oswald-Bold"), url("https://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6ZBw1xU1rKptJj_0jans920.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+@font-face {
+  font-family: 'Oswald Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Oswald Bold"), local("Oswald-Bold"), url("https://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6ZBw1xU1rKptJj_0jans920.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+@font-face {
+  font-family: 'proxima_nova_softbold';
+  src: url("../fonts/ProximaNova/proxima_nova_softbold.eot") format("embedded-opentype");
+  src: url("../fonts/ProximaNova/proxima_nova_softbold.woff") format("woff"), url("../fonts/ProximaNova/proxima_nova_softbold.woff2") format("woff2"), url("../fonts/ProximaNova/proxima_nova_softbold.ttf") format("truetype");
+  font-weight: 400;
+>>>>>>> feature/editors
   font-style: normal; }
 
 body {
@@ -170,6 +225,19 @@ h3 {
   margin-bottom: .5rem;
   margin-top: 0; }
 
+<<<<<<< HEAD
+=======
+h4 {
+  color: inherit;
+  font-family: "proxima_nova_softbold", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: .5rem;
+  margin-top: 0;
+  text-transform: none; }
+
+>>>>>>> feature/editors
 p {
   margin-bottom: 1rem;
   margin-top: 0; }
@@ -214,10 +282,17 @@ img {
 .editor__link {
   color: #000; }
   .editor__link:focus {
+<<<<<<< HEAD
     color: #4a4439;
     text-decoration: none; }
   .editor__link:hover {
     color: #4a4439;
+=======
+    color: #fe9e16;
+    text-decoration: none; }
+  .editor__link:hover {
+    color: #fe9e16;
+>>>>>>> feature/editors
     text-decoration: none; }
 
 .editor__name {
@@ -231,10 +306,17 @@ img {
   text-decoration: none;
   text-transform: none; }
   .editor__name:focus {
+<<<<<<< HEAD
     color: #4a4439;
     text-decoration: none; }
   .editor__name:hover {
     color: #4a4439;
+=======
+    color: #fe9e16;
+    text-decoration: none; }
+  .editor__name:hover {
+    color: #fe9e16;
+>>>>>>> feature/editors
     text-decoration: none; }
 
 .editor__tag {
@@ -265,7 +347,11 @@ img {
   text-align: center;
   text-transform: uppercase; }
   .section-title--alt::after {
+<<<<<<< HEAD
     background-color: #4a4439;
+=======
+    background-color: #fe9e16;
+>>>>>>> feature/editors
     content: '';
     display: block;
     height: 2px;
