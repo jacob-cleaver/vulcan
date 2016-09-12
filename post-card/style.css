@@ -257,9 +257,6 @@ p {
     max-width: 434px;
     max-width: 27.125rem;
     vertical-align: middle; }
-  .post-card--inline .post-card__category {
-    margin-top: 12px;
-    margin-top: .75rem; }
   .post-card--inline .post-card__title {
     font-size: 24px;
     font-size: 1.5rem;
@@ -305,9 +302,9 @@ p {
   font-size: .625rem;
   font-weight: 700;
   letter-spacing: .1em;
-  margin: .75rem 0 0;
   text-transform: uppercase; }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .post-card__image {
   height: 100%;
@@ -316,6 +313,8 @@ p {
 
 =======
 >>>>>>> feature/author-info
+=======
+>>>>>>> feature/post-card-hero
 .post-card__editor {
   color: #b51218;
   font-family: "Open Sans", Helvetica, Arial, sans-serif; }
@@ -333,6 +332,7 @@ p {
   margin: 0; }
 
 .post-card__date {
+<<<<<<< HEAD
   font-family: "Open Sans", Helvetica, Arial, sans-serif; }
 
 <<<<<<< HEAD
@@ -342,6 +342,13 @@ p {
   .container {
     max-width: 720px; }
 >>>>>>> feature/author-info
+=======
+  font-family: "PT-Sans-Narrow"; }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px; }
+>>>>>>> feature/post-card-hero
   .post-card--inline .post-card__title {
     font-size: 16px;
     font-size: 1rem; }

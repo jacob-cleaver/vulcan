@@ -205,9 +205,15 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 @font-face {
+<<<<<<< HEAD
   font-family: 'proxima_nova_softbold';
   src: url("../fonts/ProximaNova/proxima_nova_softbold.eot") format("embedded-opentype");
   src: url("../fonts/ProximaNova/proxima_nova_softbold.woff") format("woff"), url("../fonts/ProximaNova/proxima_nova_softbold.woff2") format("woff2"), url("../fonts/ProximaNova/proxima_nova_softbold.ttf") format("truetype");
+=======
+  font-family: 'Bariol Regular';
+  src: url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.eot");
+  src: url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.woff2") format("woff2"), url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.ttf") format("truetype"), url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.svg#bariol_regular-webfont") format("svg");
+>>>>>>> feature/post-card-hero
   font-weight: 400;
 >>>>>>> feature/editors
   font-style: normal; }
@@ -229,7 +235,11 @@ h3 {
 =======
 h4 {
   color: inherit;
+<<<<<<< HEAD
   font-family: "proxima_nova_softbold", sans-serif;
+=======
+  font-family: "Bariol Regular", Arial, sans-serif;
+>>>>>>> feature/post-card-hero
   font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.1;
@@ -283,6 +293,7 @@ img {
   color: #000; }
   .editor__link:focus {
 <<<<<<< HEAD
+<<<<<<< HEAD
     color: #4a4439;
     text-decoration: none; }
   .editor__link:hover {
@@ -293,6 +304,12 @@ img {
   .editor__link:hover {
     color: #fe9e16;
 >>>>>>> feature/editors
+=======
+    color: #776d6f;
+    text-decoration: none; }
+  .editor__link:hover {
+    color: #776d6f;
+>>>>>>> feature/post-card-hero
     text-decoration: none; }
 
 .editor__name {
@@ -307,6 +324,7 @@ img {
   text-transform: none; }
   .editor__name:focus {
 <<<<<<< HEAD
+<<<<<<< HEAD
     color: #4a4439;
     text-decoration: none; }
   .editor__name:hover {
@@ -317,12 +335,22 @@ img {
   .editor__name:hover {
     color: #fe9e16;
 >>>>>>> feature/editors
+=======
+    color: #776d6f;
+    text-decoration: none; }
+  .editor__name:hover {
+    color: #776d6f;
+>>>>>>> feature/post-card-hero
     text-decoration: none; }
 
 .editor__tag {
   font-size: 12px;
   font-size: .75rem;
+<<<<<<< HEAD
   font-family: "TeXGyreAdventorRegular", Helvetica Neue, Helvetica, Arial, sans-serif; }
+=======
+  font-family: "Bariol Regular", Arial, sans-serif; }
+>>>>>>> feature/post-card-hero
 
 .bx-wrapper {
   border: 0;
@@ -338,7 +366,11 @@ img {
 .section-title--alt {
   color: #000;
   display: block;
+<<<<<<< HEAD
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+=======
+  font-family: "Bariol Regular", Arial, sans-serif;
+>>>>>>> feature/post-card-hero
   font-size: 12px;
   font-size: .75rem;
   font-weight: bold;
@@ -348,10 +380,14 @@ img {
   text-transform: uppercase; }
   .section-title--alt::after {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: #4a4439;
 =======
     background-color: #fe9e16;
 >>>>>>> feature/editors
+=======
+    background-color: #776d6f;
+>>>>>>> feature/post-card-hero
     content: '';
     display: block;
     height: 2px;

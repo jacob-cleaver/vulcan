@@ -110,11 +110,6 @@ p {
     vertical-align: middle;
   }
 
-  .post-card__category {
-    margin-top: 12px;
-    margin-top: .75rem;
-  }
-
   .post-card__title {
     font-size: 24px;
     font-size: 1.5rem;
@@ -176,7 +171,6 @@ p {
   font-size: .625rem;
   font-weight: 700;
   letter-spacing: .1em;
-  margin: .75rem 0 0;
   text-transform: uppercase;
 }
 
@@ -185,6 +179,7 @@ p {
   margin: 0;
   object-fit: cover;
 }
+
 .post-card__editor {
   color: $color;
   font-family: $post-card__editor;
