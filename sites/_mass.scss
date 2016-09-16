@@ -26,14 +26,14 @@ $post-card__date: $open-sans;
 $author-info__heading: $helvetica-neue;
 $body: $open-sans;
 
-@media (max-width: 1200px) and (min-width: 992px) {
-  h4 {
+@media (max-width: 1199px) and (min-width: 992px) {
+  .post-card__title>a {
     font-size: 38px;
   }
 }
 
-@media (max-width: 99px) and (min-width: 768px) {
-  .post-card__title {
-    font-size: 24px;
+@media (max-width: 991px) and (min-width: 768px) {
+  .post-card__title>a {
+    font-size: 28px;
   }
 }

@@ -1,4 +1,4 @@
-@import '../sites/lookfantastic';
+@import '../sites/mybag';
 
 body {
   font-family: $open-sans;
@@ -40,10 +40,6 @@ img {
 .editors {
   margin: 0 1.5rem;
   text-align: center;
-
-  .bx-wrapper {
-    margin: 0 auto;
-  }
 }
 
 .editors__title {
@@ -107,20 +103,6 @@ img {
   font-size: 12px;
   font-size: .75rem;
   font-family: $editor__tag;
-}
-
-.bx-wrapper {
-  border: 0;
-  box-shadow: none;
-  margin: 0 auto 5rem;
-  padding: 0;
-  position: relative;
-  zoom: 1;
-
-  .bx-viewport {
-    backface-visibility: hidden;
-    transform: translatez(0);
-  }
 }
 
 .section-title--alt {

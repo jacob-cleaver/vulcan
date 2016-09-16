@@ -160,13 +160,13 @@
 .post-card__title {
   text-transform: uppercase; }
 
-@media (max-width: 1200px) and (min-width: 992px) {
-  h4 {
+@media (max-width: 1199px) and (min-width: 992px) {
+  .post-card__title > a {
     font-size: 38px; } }
 
-@media (max-width: 99px) and (min-width: 768px) {
-  .post-card__title {
-    font-size: 24px; } }
+@media (max-width: 991px) and (min-width: 768px) {
+  .post-card__title > a {
+    font-size: 28px; } }
 
 html {
   box-sizing: border-box;
@@ -211,7 +211,6 @@ img {
 
 h4 {
   color: inherit;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.1;
@@ -222,17 +221,6 @@ h4 {
 p {
   margin-bottom: 1rem;
   margin-top: 0; }
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: .9375rem;
-  padding-right: .9375rem;
-  overflow: hidden; }
-  .container:after {
-    clear: both;
-    content: '';
-    display: table; }
 
 .narrow-container {
   margin-left: auto;
@@ -280,16 +268,10 @@ p {
     color: #b51218;
     text-decoration: none; }
 
-.post-card__title {
-  color: #000;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  font-size: 1.25rem;
-  line-height: 1.4;
-  margin: .75rem 0;
-  padding: 0; }
-  .post-card__title .post-card__link {
-    display: block; }
+.post-card__image {
+  height: 100%;
+  margin: 0;
+  object-fit: cover; }
 
 .post-card__text {
   color: #777; }
@@ -304,14 +286,16 @@ p {
   letter-spacing: .1em;
   text-transform: uppercase; }
 
-.post-card__image {
-  height: 100%;
-  margin: 0;
-  object-fit: cover; }
-
-.post-card__editor {
-  color: #b51218;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+.post-card__title {
+  color: #000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin: .75rem 0;
+  padding: 0; }
+  .post-card__title .post-card__link {
+    display: block; }
 
 .post-card__snippet {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -328,14 +312,9 @@ p {
 .post-card__date {
   font-family: "Open Sans", Helvetica, Arial, sans-serif; }
 
-@media (max-width: 768px) {
-  .container {
-    max-width: 720px; }
-  .post-card--inline .post-card__title {
-    font-size: 16px;
-    font-size: 1rem; }
-  .post-card--inline .post-card__snippet {
-    display: none; } }
+.post-card__editor {
+  color: #b51218;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif; }
 
 @media (min-width: 32em) {
   .post-card--inline .post-card__media {
@@ -346,6 +325,9 @@ p {
     max-width: 800px;
     max-width: 50rem; } }
 
-@media (max-width: 544px) {
-  .container {
-    max-width: 576px; } }
+@media (max-width: 768px) {
+  .post-card--inline .post-card__title {
+    font-size: 16px;
+    font-size: 1rem; }
+  .post-card--inline .post-card__snippet {
+    display: none; } }
