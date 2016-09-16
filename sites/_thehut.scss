@@ -2,11 +2,11 @@
 
 $color: $black;
 $hover: $black;
-$text-transform: none;
 $display: block;
+$text-transform: none;
+$text-decoration: none;
 
 // EDITORS
-$text-decoration: none;
 $section-title--alt-font: $open-sans;
 $editor__name: 'Oswald', Helvetica, Arial, sans-serif;
 $editor__tag: $open-sans;
@@ -22,13 +22,12 @@ $post-card__date: $open-sans;
 $author-info__heading: 'Oswald', Helvetica, Arial, sans-serif;
 $body: $open-sans;
 
-
-.editor__name, .post-card__title {
-  font-weight: 700;
-}
-
 .author-info__heading {
   .author-info__heading__link {
     font-weight: 700;
   }
+}
+
+.editor__name, .post-card__title {
+  font-weight: 700;
 }

@@ -2,11 +2,11 @@
 
 $color: #776d6f;
 $hover: #776d6f;
-$text-transform: uppercase;
 $display: block;
+$text-transform: uppercase;
+$text-decoration: none;
 
 // EDITORS
-$text-decoration: none;
 $section-title--alt-font: 'Bariol Regular', Arial, sans-serif;
 $editor__name: 'Bariol Regular', Arial, sans-serif;
 $editor__tag: 'Bariol Regular', Arial, sans-serif;
@@ -22,7 +22,6 @@ $post-card__date: 'Bariol Regular', Arial, sans-serif;
 // AUTHOR_INFO
 $author-info__heading: 'Bariol Regular', Arial, sans-serif;
 $body: $helvetica-neue;
-
 
 // FONTS
 @font-face {

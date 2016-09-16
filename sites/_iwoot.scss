@@ -2,11 +2,11 @@
 
 $color: $black;
 $hover: $black;
-$text-transform: none;
 $display: block;
+$text-transform: none;
+$text-decoration: underline;
 
 // EDITORS
-$text-decoration: underline;
 $section-title--alt-font: $open-sans;
 $editor__name: 'antonioregular', Arial, Verdana, Helvetica;
 $editor__tag: $open-sans;

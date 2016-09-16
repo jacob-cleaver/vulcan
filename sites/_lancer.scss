@@ -2,11 +2,11 @@
 
 $color: #006e9e;
 $hover: #006e9e;
-$text-transform: none;
 $display: block;
+$text-transform: none;
+$text-decoration: none;
 
 // EDITORS
-$text-decoration: none;
 $section-title--alt-font: $open-sans;
 $editor__name: 'Futura-Book';
 $editor__tag: $open-sans;
@@ -22,7 +22,6 @@ $post-card__date: $open-sans;
 $author-info__heading: 'Futura-Book';
 $body: $open-sans;
 
-
 // FONTS
 @font-face {
   font-family: 'Futura-Book';
@@ -36,10 +35,6 @@ $body: $open-sans;
   font-style: normal;
 }
 
-.editor__name {
-  letter-spacing: .5px;
-}
-
-.post-card__title {
+.editor__name, .post-card__title {
   letter-spacing: .5px;
 }
