@@ -1,4 +1,4 @@
-@import '../sites/iwoot';
+@import '../sites/pbk';
 
 html {
   box-sizing: border-box;
@@ -42,6 +42,10 @@ img {
   max-width: 100%;
 }
 
+h4 {
+
+}
+
 p {
   margin-bottom: 1rem;
   margin-top: 0;
@@ -68,8 +72,8 @@ hr {
 }
 
 .m-x-auto {
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 .post-content-width {
@@ -88,8 +92,8 @@ hr {
 }
 
 .p-y-2 {
-  padding-bottom: 1.5rem;
   padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .author-info__avatar {
@@ -103,36 +107,32 @@ hr {
   overflow: hidden;
 }
 
-.media-object {
-  display: block;
-}
-
-.img-circle {
-  border-radius: 50%;
-}
-
-.author-info__image {
-  width: 100%;
-  height: auto;
-}
-
 .author-info__text {
   display: block;
 }
 
 .author-info__heading {
-  color: $black;
-  font-family: $author-info__heading;
-  font-size: 16px;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1;
+  padding: 0;
+  margin-top: 0;
   margin-bottom: 8px;
   margin-bottom: .5rem;
-  margin-top: 0;
-  padding: 0;
-  text-transform: $text-transform;
+  line-height: 1;
+  font-size: 16px;
+  font-size: 1rem;
 
+  // color: inherit;
+
+  // font-size: 1.3rem;
+  font-weight: 400;
+  // line-height: 1.1;
+  // margin-bottom: .5rem;
+  // margin-top: 0;
+  text-transform: $text-transform;
+}
+
+.author-info__heading {
+  color: $black;
+  font-family: $author-info__heading;
 }
 
 .author-info__subheader {

@@ -155,68 +155,32 @@
 
 @font-face {
   font-family: 'Oswald';
-<<<<<<< HEAD
-=======
-  font-style: normal;
-  font-weight: 300;
-  src: local("Oswald Light"), local("Oswald-Light"), url("https://fonts.gstatic.com/s/oswald/v10/l1cOQ90roY9yC7voEhngDIX0hVgzZQUfRDuZrPvH3D8.woff2") format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
-
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 300;
-  src: local("Oswald Light"), local("Oswald-Light"), url("https://fonts.gstatic.com/s/oswald/v10/HqHm7BVC_nzzTui2lzQTDZBw1xU1rKptJj_0jans920.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Oswald Regular"), local("Oswald-Regular"), url("https://fonts.gstatic.com/s/oswald/v10/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2") format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
-
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Oswald Regular"), local("Oswald-Regular"), url("https://fonts.gstatic.com/s/oswald/v10/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-
-@font-face {
-  font-family: 'Oswald Bold';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Oswald Bold"), local("Oswald-Bold"), url("https://fonts.gstatic.com/s/oswald/v10/dI-qzxlKVQA6TUC5RKSb34X0hVgzZQUfRDuZrPvH3D8.woff2") format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
-
-@font-face {
-  font-family: 'Oswald Bold';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Oswald Bold"), local("Oswald-Bold"), url("https://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6ZBw1xU1rKptJj_0jans920.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-
-@font-face {
-  font-family: 'Oswald Bold';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Oswald Bold"), local("Oswald-Bold"), url("https://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6ZBw1xU1rKptJj_0jans920.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-
-@font-face {
-<<<<<<< HEAD
-  font-family: 'proxima_nova_softbold';
-  src: url("../fonts/ProximaNova/proxima_nova_softbold.eot") format("embedded-opentype");
-  src: url("../fonts/ProximaNova/proxima_nova_softbold.woff") format("woff"), url("../fonts/ProximaNova/proxima_nova_softbold.woff2") format("woff2"), url("../fonts/ProximaNova/proxima_nova_softbold.ttf") format("truetype");
-=======
-  font-family: 'Bariol Regular';
-  src: url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.eot");
-  src: url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.woff2") format("woff2"), url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.ttf") format("truetype"), url("http://s2.thcdn.com/fe/fonts/growgorgeous/bariol_regular-webfont.svg#bariol_regular-webfont") format("svg");
->>>>>>> feature/post-card-hero
-  font-weight: 400;
->>>>>>> feature/editors
   font-style: normal; }
+
+.post-card__editor {
+  text-transform: uppercase; }
+
+@font-face {
+  font-family: 'FuturaStd-Book';
+  src: url("http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.eot");
+  src: url("http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.eot#iefix") format("embedded-opentype"), url("http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.woff") format("woff"), url("http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.ttf") format("truetype"), url("http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.otf") format("opentype"), url("http://s2.thcdn.com/fe/fonts/mbint/FuturaStd-Book_gdi.svg#FuturaStd-Book") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-25CA; }
+
+.editor__name {
+  font-size: 1.15rem; }
+
+.post-card__editor {
+  text-transform: uppercase; }
+
+.post-card__title {
+  text-transform: uppercase; }
+
+.post-card__text .post-card__snippet {
+  font-size: 13px;
+  font-size: .813rem; }
 
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -231,23 +195,6 @@ h3 {
   margin-bottom: .5rem;
   margin-top: 0; }
 
-<<<<<<< HEAD
-=======
-h4 {
-  color: inherit;
-<<<<<<< HEAD
-  font-family: "proxima_nova_softbold", sans-serif;
-=======
-  font-family: "Bariol Regular", Arial, sans-serif;
->>>>>>> feature/post-card-hero
-  font-size: 1.3rem;
-  font-weight: 400;
-  line-height: 1.1;
-  margin-bottom: .5rem;
-  margin-top: 0;
-  text-transform: none; }
-
->>>>>>> feature/editors
 p {
   margin-bottom: 1rem;
   margin-top: 0; }
@@ -268,8 +215,6 @@ img {
 .editors {
   margin: 0 1.5rem;
   text-align: center; }
-  .editors .bx-wrapper {
-    margin: 0 auto; }
 
 .editors__title {
   font-weight: 300;
@@ -292,29 +237,15 @@ img {
 .editor__link {
   color: #000; }
   .editor__link:focus {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    color: #4a4439;
+    color: #f0f0f2;
     text-decoration: none; }
   .editor__link:hover {
-    color: #4a4439;
-=======
-    color: #fe9e16;
-    text-decoration: none; }
-  .editor__link:hover {
-    color: #fe9e16;
->>>>>>> feature/editors
-=======
-    color: #776d6f;
-    text-decoration: none; }
-  .editor__link:hover {
-    color: #776d6f;
->>>>>>> feature/post-card-hero
+    color: #000;
     text-decoration: none; }
 
 .editor__name {
   color: #000;
-  font-family: "TeXGyreAdventorBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "FuturaStd-Book", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.1;
@@ -323,54 +254,21 @@ img {
   text-decoration: none;
   text-transform: none; }
   .editor__name:focus {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    color: #4a4439;
+    color: #f0f0f2;
     text-decoration: none; }
   .editor__name:hover {
-    color: #4a4439;
-=======
-    color: #fe9e16;
-    text-decoration: none; }
-  .editor__name:hover {
-    color: #fe9e16;
->>>>>>> feature/editors
-=======
-    color: #776d6f;
-    text-decoration: none; }
-  .editor__name:hover {
-    color: #776d6f;
->>>>>>> feature/post-card-hero
-    text-decoration: none; }
+    color: #000;
+    text-decoration: underline; }
 
 .editor__tag {
   font-size: 12px;
   font-size: .75rem;
-<<<<<<< HEAD
-  font-family: "TeXGyreAdventorRegular", Helvetica Neue, Helvetica, Arial, sans-serif; }
-=======
-  font-family: "Bariol Regular", Arial, sans-serif; }
->>>>>>> feature/post-card-hero
-
-.bx-wrapper {
-  border: 0;
-  box-shadow: none;
-  margin: 0 auto 5rem;
-  padding: 0;
-  position: relative;
-  zoom: 1; }
-  .bx-wrapper .bx-viewport {
-    backface-visibility: hidden;
-    transform: translatez(0); }
+  font-family: "FuturaStd-Book", Helvetica Neue, Helvetica, Arial, sans-serif; }
 
 .section-title--alt {
   color: #000;
   display: block;
-<<<<<<< HEAD
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-=======
-  font-family: "Bariol Regular", Arial, sans-serif;
->>>>>>> feature/post-card-hero
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-size: .75rem;
   font-weight: bold;
@@ -379,15 +277,7 @@ img {
   text-align: center;
   text-transform: uppercase; }
   .section-title--alt::after {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    background-color: #4a4439;
-=======
-    background-color: #fe9e16;
->>>>>>> feature/editors
-=======
-    background-color: #776d6f;
->>>>>>> feature/post-card-hero
+    background-color: #f0f0f2;
     content: '';
     display: block;
     height: 2px;

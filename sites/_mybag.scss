@@ -1,9 +1,9 @@
 @import '../variables';
 
-$color: $black;
+$color: #f0f0f2;
 $hover: $black;
 $text-transform: none;
-$display: none;
+$display: block;
 
 // EDITORS
 $text-decoration: underline;
@@ -42,7 +42,7 @@ $body: $open-sans;
 }
 
 .editor__name{
-    font-size: 1.15rem;
+  font-size: 1.15rem;
 }
 
 .post-card__editor {
