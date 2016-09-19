@@ -2,11 +2,11 @@
 
 $color: $black;
 $hover: $black;
-$text-transform: none;
 $display: block;
+$text-transform: none;
+$text-decoration: none;
 
 // EDITORS
-$text-decoration: none;
 $section-title--alt-font: $open-sans;
 $editor__name: 'league_gothicregular', Arial, Verdana, Helvetica;
 $editor__tag: $open-sans;
@@ -17,6 +17,10 @@ $post-card__category: $open-sans;
 $post-card__editor: $open-sans;
 $post-card__snippet: $open-sans;
 $post-card__date: $open-sans;
+
+.post-card__title {
+  letter-spacing: .05em;
+}
 
 // AUTHOR_INFO
 $author-info__heading: 'Oswald', Helvetica, Arial, sans-serif;
@@ -43,8 +47,4 @@ $body: $open-sans;
     url('http://s2.thcdn.com/fe/fonts/mkint/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg') format('svg');
   font-weight: 400;
   font-style: normal;
-}
-
-.post-card__title {
-  letter-spacing: .05em;
 }

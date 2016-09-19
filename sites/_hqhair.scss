@@ -2,11 +2,11 @@
 
 $color: $black;
 $hover: $black;
-$text-transform: uppercase;
 $display: block;
+$text-transform: uppercase;
+$text-decoration: none;
 
 // EDITORS
-$text-decoration: none;
 $section-title--alt-font: $helvetica-neue;
 $editor__name: 'FuturaCon-Bol';
 $editor__tag: $helvetica-neue;
@@ -25,7 +25,6 @@ $post-card__date: $helvetica-neue;
 // AUTHOR_INFO
 $author-info__heading: 'FuturaCon-Bol';
 $body: $helvetica-neue;
-
 
 // FONTS
 @font-face {

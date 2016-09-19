@@ -2,11 +2,11 @@
 
 $color: #ff4d4d;
 $hover: #ff4d4d;
-$text-transform: none;
 $display: block;
+$text-transform: none;
+$text-decoration: none;
 
 // EDITORS
-$text-decoration: none;
 $section-title--alt-font: $open-sans;
 $editor__name: 'ClearSansLight', ClearSans, Helvetica Neue, Helvetica, Arial, sans-serif;
 $editor__tag: $open-sans;
@@ -21,6 +21,7 @@ $post-card__date: $open-sans;
 // AUTHOR_INFO
 $author-info__heading: 'ClearSansLight', ClearSans, Helvetica Neue, Helvetica, Arial, sans-serif;
 $body: $open-sans;
+
 // FONTS
 @font-face {
   font-family: 'ClearSansLight';

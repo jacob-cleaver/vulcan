@@ -1,4 +1,4 @@
-@import '../sites/zavvi';
+@import '../sites/preloved';
 
 html {
   box-sizing: border-box;
@@ -48,18 +48,7 @@ a {
 img {
   border-style: none;
   vertical-align: middle;
-  max-width: 100%;
-}
-
-h4 {
-  color: inherit;
-  font-family: $post-card__title;
-  font-size: 1.3rem;
-  font-weight: 400;
-  line-height: 1.1;
-  margin-bottom: .5rem;
-  margin-top: 0;
-  text-transform: $text-transform;
+  // max-width: 100%;
 }
 
 p {
@@ -85,31 +74,30 @@ p {
 }
 
 .post-card--inline {
-  border-top: 1px solid $light-gray;
   padding: 1.5rem 0;
-  width: 100%;
+  display: inline-table;
+  // width: 100%;
   .post-card__media {
-    display: table-cell;
-    height: 200px;
-    height: 12.5rem;
+    // display: table-cell;
+    // height: 200px;
+    // height: 12.5rem;
     padding-right: 24px;
     padding-right: 1.5rem;
     vertical-align: middle;
-    width: 270px;
-    width: 16.875rem;
+    // width: 270px;
+    // width: 16.875rem;
   }
 
-  .post-card__image {
-    height: 200px;
-    height: 12.5rem;
-    width: 270px;
-    width: 16.875rem;
-  }
+  // .post-card__image {
+  //   height: 200px;
+  //   height: 12.5rem;
+  //   width: 270px;
+  //   width: 16.875rem;
+  // }
 
   .post-card__text {
-    display: table-cell;
-    max-width: 434px;
-    max-width: 27.125rem;
+    // max-width: 434px;
+    // max-width: 27.125rem;
     vertical-align: middle;
   }
 
@@ -126,18 +114,6 @@ p {
 
   .post-card__snippet {
     display: block;
-  }
-}
-
-@media (min-width: 32em) {
-  .post-card--inline {
-    .post-card__media {
-      width: auto;
-    }
-
-    .post-card__image {
-      width: auto;
-    }
   }
 }
 
@@ -173,6 +149,7 @@ p {
   line-height: 1.4;
   margin: .75rem 0;
   padding: 0;
+  text-transform: $text-transform;
 
   .post-card__link {
     display: block;
@@ -196,10 +173,8 @@ p {
 }
 
 .post-card__image {
-  height: 100%;
   margin: 0;
   object-fit: cover;
-  width: 100%;
 }
 
 .post-card__editor {
@@ -239,9 +214,69 @@ p {
   margin-left: auto;
 }
 
-@media (min-width: 48em) {
-  .post-content {
-    max-width: 700px;
-    max-width: 43.75rem;
+.section-title--alt {
+  color: $black;
+  display: block;
+  font-family: $section-title--alt-font;
+  font-size: 12px;
+  font-size: .75rem;
+  font-weight: bold;
+  letter-spacing: .5em;
+  margin: 2rem 0;
+  text-align: center;
+  text-transform: uppercase;
+
+  &::after {
+    background-color: $color;
+    content: '';
+    display: $display;
+    height: 2px;
+    height: .125rem;
+    margin: .9375rem auto 0;
+    width: 70px;
+    width: 4.375rem;
   }
 }
+
+@media (max-width: 31.25em) {
+  .post-card--inline .post-card__text {
+    max-width: 467px;
+  }
+}
+
+@media (min-width: 31.25em) and (max-width: 48em) {
+  .post-card--inline .post-card__text {
+    max-width: 233px;
+  }
+}
+
+@media (min-width: 48em) {
+  .post-card--inline .post-card__text {
+    max-width: 305px;
+  }
+}
+
+@media (min-width: 62em) {
+  .post-card--inline .post-card__text {
+    max-width: 415px;
+  }
+}
+
+@media (min-width: 64em) {
+  .post-card--inline .post-card__text {
+    max-width: 187px;
+  }
+}
+
+@media (min-width: 75em) {
+  .post-card--inline .post-card__text {
+    max-width: 252px;
+  }
+}
+
+// @media (min-width: 48em) {
+//   .post-content {
+//     max-width: 700px;
+//     max-width: 43.75rem;
+//   }
+// }

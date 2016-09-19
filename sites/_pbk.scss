@@ -2,11 +2,11 @@
 
 $color: #c03;
 $hover: #c03;
-$text-transform: uppercase;
 $display: block;
+$text-transform: uppercase;
+$text-decoration: none;
 
 // EDITORS
-$text-decoration: none;
 $section-title--alt-font: $open-sans;
 $editor__name: 'bebas_neueregular_blog', sans-serif;
 $editor__tag: $open-sans;
@@ -17,7 +17,6 @@ $post-card__category: $open-sans;
 $post-card__editor: $open-sans;
 $post-card__snippet: $open-sans;
 $post-card__date: $open-sans;
-$text-transform: none;
 
 // AUTHOR_INFO
 $author-info__heading: 'bebas_neueregular_blog', sans-serif;
@@ -36,10 +35,6 @@ $body: $open-sans;
   font-style: normal;
 }
 
-.editor__name {
-  letter-spacing: 1px;
-}
-
-.post-card__title {
+.editor__name, .post-card__title {
   letter-spacing: 1px;
 }

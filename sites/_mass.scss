@@ -2,11 +2,11 @@
 
 $color: #b51218;
 $hover: #b51218;
-$text-transform: none;
 $display: block;
+$text-transform: none;
+$text-decoration: none;
 
 // EDITORS
-$text-decoration: none;
 $section-title--alt-font: $open-sans;
 $editor__name: $helvetica-neue;
 $editor__tag: $open-sans;
@@ -22,10 +22,6 @@ $post-card__date: $open-sans;
   text-transform: uppercase;
 }
 
-// AUTHOR_INFO
-$author-info__heading: $helvetica-neue;
-$body: $open-sans;
-
 @media (max-width: 1199px) and (min-width: 992px) {
   .post-card__title>a {
     font-size: 38px;
@@ -37,3 +33,7 @@ $body: $open-sans;
     font-size: 28px;
   }
 }
+
+// AUTHOR_INFO
+$author-info__heading: $helvetica-neue;
+$body: $open-sans;

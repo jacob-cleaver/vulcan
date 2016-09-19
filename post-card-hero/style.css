@@ -164,10 +164,7 @@
   font-weight: 400;
   font-style: normal; }
 
-.editor__name {
-  letter-spacing: 1px; }
-
-.post-card__title {
+.editor__name, .post-card__title {
   letter-spacing: 1px; }
 
 html {
