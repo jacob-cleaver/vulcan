@@ -286,6 +286,7 @@ p {
   letter-spacing: .1em;
   text-transform: uppercase; }
 
+<<<<<<< HEAD
 .post-card__title {
   color: #000;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -296,6 +297,16 @@ p {
   padding: 0; }
   .post-card__title .post-card__link {
     display: block; }
+=======
+.post-card__image {
+  height: 100%;
+  margin: 0;
+  object-fit: cover; }
+
+.post-card__editor {
+  color: #b51218;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+>>>>>>> feature/post-card-hero
 
 .post-card__snippet {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -312,9 +323,20 @@ p {
 .post-card__date {
   font-family: "Open Sans", Helvetica, Arial, sans-serif; }
 
+<<<<<<< HEAD
 .post-card__editor {
   color: #b51218;
   font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+=======
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px; }
+  .post-card--inline .post-card__title {
+    font-size: 16px;
+    font-size: 1rem; }
+  .post-card--inline .post-card__snippet {
+    display: none; } }
+>>>>>>> feature/post-card-hero
 
 @media (min-width: 32em) {
   .post-card--inline .post-card__media {
